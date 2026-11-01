@@ -14,7 +14,7 @@
 
 兩批獨立Gemini影像讀字實際模型為gemini-3.8-flash-high，各批3圖，合計6幅讀字影像；再依固定影像裁定原字形與原刻點。原生Codex實際細分型號未回報，保持未知；私有三維追溯因此仍標incomplete。未經人類雙校、專家審定或同儕審查，沒有量測逐字準確率。格式、DOI與模型一致不能證明讀字無誤。
 
-初錄v0.1.0及[其DOI](https://doi.org/10.5281/zenodo.23870178)保留；本版另行封存，不覆寫初錄。本版 DOI 已預留；本包建立時尚未確認正式發布或公開登記。候選包尚未正式發布，平台狀態以發布後公開讀回為準。
+初錄v0.1.0及[其DOI](https://doi.org/10.5281/zenodo.23870178)保留；本版另行封存，不覆寫初錄。本版已於2026-11-02正式發布：[Zenodo v0.2.0](https://doi.org/10.5281/zenodo.23870679) · [GitHub Release](https://github.com/poplolioi11/bodleian-sinica1240-zhongdou-jiefa-1859/releases/tag/v0.2.0)。公開檔案已匿名下載並核對SHA-256。封存包及固定標籤保留建立當下的「預留／候選」文字，不覆寫歷史版本；此主分支說明反映上架後狀態。
 
 原文、異體與原刻點編碼照固定裁定稿保存；不新增現代句讀。歷史文字、自有原創說明與館藏影像分層權利；本包不含掃描、裁片、技能、提示或私有程式，也不提供從原圖完整重跑方法。引用請附版本、單位ID與官方原頁。
 
@@ -24,4 +24,4 @@ An independently AI-read and source-adjudicated transcription of the 1859 Chines
 
 Keywords: 種痘捷法; Sinica 1240; 博濟醫局; 醫學史; 清代醫籍; 傳教醫療史; 醫學印刷史; history of medicine; Chinese medical texts; medical missions history; medical print culture; Qing dynasty; digital humanities; AI-assisted transcription; TEI XML; 1859.
 
-預留版本 DOI（reserved；尚未確認正式發布）： https://doi.org/10.5281/zenodo.23870679
+已發布版本 DOI： https://doi.org/10.5281/zenodo.23870679
