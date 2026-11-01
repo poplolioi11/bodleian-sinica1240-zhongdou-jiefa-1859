@@ -1,0 +1,65 @@
+{
+  "dataset_id": "bodleian-sinica1240",
+  "version": "0.1.0",
+  "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
+  "items": [
+    {
+      "page_id": "f03",
+      "id": "unc-001",
+      "unit_id": "p03-c02",
+      "start": 14,
+      "end": 15,
+      "surface": "仿",
+      "reason": "步仿末字按圖暫讀仿，不以文意改位。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "仿",
+        "位"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-002",
+      "unit_id": "p04-c05",
+      "start": 2,
+      "end": 3,
+      "surface": "任",
+      "reason": "按圖暫讀任，句法不順不自動改字。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "任",
+        "在"
+      ]
+    },
+    {
+      "page_id": "f04",
+      "id": "unc-003",
+      "unit_id": "p05-c07",
+      "start": 1,
+      "end": 2,
+      "surface": "粥",
+      "reason": "待較高解析與盲讀核右左部件。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "粥"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-004",
+      "unit_id": "p07-c01",
+      "start": 15,
+      "end": 17,
+      "surface": "依佢",
+      "reason": "疑為口語用字，不正規化為其他詞。",
+      "cause": "initial-reading-uncertainty",
+      "extent": "known",
+      "candidates": [
+        "依佢"
+      ]
+    }
+  ]
+}

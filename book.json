@@ -1,0 +1,928 @@
+{
+  "dataset_id": "bodleian-sinica1240",
+  "version": "0.1.0",
+  "title": "種痘捷法（1859，Bodleian Sinica 1240）：AI初錄資料集",
+  "quality": {
+    "status": "AI-initial-transcription-unreviewed",
+    "independent_reading_applied": false,
+    "human_double_collation": "not-performed",
+    "expert_review": "not-performed",
+    "accuracy_measured": false,
+    "source_scope": "8 frames; 10 interior physical faces; 9 with original print; covers and later marks described only"
+  },
+  "source": {
+    "object_url": "https://digital.bodleian.ox.ac.uk/objects/657cb8d8-0323-48b5-9053-566eccc6421a/",
+    "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/657cb8d8-0323-48b5-9053-566eccc6421a.json",
+    "shelfmark": "Bodleian Libraries, Sinica 1240",
+    "edition": "咸豐九年（1859），博濟醫局藏板；題頁末字字形另見初錄及後續訂正。",
+    "author_attribution": "末題署「博濟醫局醫士嘉氏謹識」；本包不將現代整理者列為歷史作者。"
+  },
+  "metrics": {
+    "canvases": 8,
+    "physical_inner_faces": 10,
+    "printed_text_faces": 9,
+    "initial_column_units": 69,
+    "observed_paratext_units": 15,
+    "units": 84,
+    "codepoints": 1187,
+    "uncertainty_records": 4,
+    "square_placeholders": 0
+  },
+  "methods": {
+    "purpose": "醫學史及古籍文獻數位化；提供原文檢索、引用與後續校訂。",
+    "initial_reader": "OpenAI Codex controller; actual specific model identifier unavailable",
+    "actual_model": null,
+    "normalization": "原字串、異體與原刻點號保留；原刻小斜點以U+3001表記。",
+    "paratext": "僅將固定初錄明確觀察的版心題字及印頁碼轉為獨立單位；空值不補字。",
+    "exclusions": [
+      "p02是題頁背面透印，不作第二份歷史正文。",
+      "末面p10稱繪列圖式於左，但現有掃描未見清晰獨立圖式，未補畫。",
+      "版心在某些掃描邊緣被裁／摺，不以他面補成完整字。",
+      "原刻小斜點以U+3001表記；不是新增現代句讀。"
+    ],
+    "detailed_methods_public": false,
+    "image_to_text_full_reproduction_provided": false
+  },
+  "position_convention": "疑讀位置採單位內Unicode碼點0起算半開區間；bbox為null，只提供原影像及左右面定位。",
+  "pages": [
+    {
+      "page_id": "f01",
+      "index": 1,
+      "source_sha256": "1b957c73fa6a79b3e8ba1f08bdae39210d94db4e5fc89ed8850b18143e32c4d6",
+      "width": 2500,
+      "height": 2302,
+      "official_label": "Upper cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/7516faad-c760-4db9-bd7b-cad5cf9885b4.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/7516faad-c760-4db9-bd7b-cad5cf9885b4/full/2500,/0/default.jpg",
+      "layout_note": "影像與物理面對照：upper cover。封面及後加館藏／現代注記僅作版面描述，不收入歷史原文字串。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "excluded-nonwork-or-no-separate-original-print",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f02",
+      "index": 2,
+      "source_sha256": "7cc4a5e92b7be8a32c19ef47aa18ba605618b3f36d80d2efc1916a23e0a52ec8",
+      "width": 2500,
+      "height": 2302,
+      "official_label": "Inside upper cover and p. [1]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/68d7ce73-eab9-48a0-bdc3-4d934002e7eb.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/68d7ce73-eab9-48a0-bdc3-4d934002e7eb/full/2500,/0/default.jpg",
+      "layout_note": "影像與物理面對照：blank inside front + p1 title at left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p01-c01",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "咸豐九年新鐫",
+          "bbox": null
+        },
+        {
+          "id": "p01-c02",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "另新附留痘漿妙法",
+          "bbox": null
+        },
+        {
+          "id": "p01-c03",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "種痘捷法",
+          "bbox": null
+        },
+        {
+          "id": "p01-c04",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "博濟醫局藏板",
+          "bbox": null
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f03",
+      "index": 3,
+      "source_sha256": "9b80bc24fd622a9d183ab4623a5739ff6592cc0342963f229ae6d2a5d1522d62",
+      "width": 2500,
+      "height": 2302,
+      "official_label": "pp. [2]-[3]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/3f7cd8bd-e1f0-462d-99e9-59a78cc99b88.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/3f7cd8bd-e1f0-462d-99e9-59a78cc99b88/full/2500,/0/default.jpg",
+      "layout_note": "影像與物理面對照：p2 bleedthrough at right + p3 at left。右側p02為題頁透印，不重錄為另一份正文；左側p03有歷史印刷文字。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p03-c01",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "種痘論",
+          "bbox": null
+        },
+        {
+          "id": "p03-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "種痘之法、多在手臂上約寸餘步仿用尖",
+          "bbox": null
+        },
+        {
+          "id": "p03-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "利刀仔、或用針、輕輕挑破皮左右每兩三",
+          "bbox": null
+        },
+        {
+          "id": "p03-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "處、以不見血流為妙、再用刀尖染些痘漿",
+          "bbox": null
+        },
+        {
+          "id": "p03-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "搽在挑破處、倘若手重、挑皮深破、待息間",
+          "bbox": null
+        },
+        {
+          "id": "p03-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "血止、然後染漿種入、此一法也、更有不用",
+          "bbox": null
+        },
+        {
+          "id": "p03-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "先挑破皮、卽將刀尖染痘漿、每粒處輕輕",
+          "bbox": null
+        },
+        {
+          "id": "p03-c08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "刺五六點、其漿自然從所刺之處種入、此",
+          "bbox": null
+        },
+        {
+          "id": "p03-c09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "法較為簡捷、種期必以七日至九日為準、",
+          "bbox": null
+        },
+        {
+          "id": "p03-running-title",
+          "layer": "original-print",
+          "role": "running-title",
+          "side": "left",
+          "text": "種痘捷法",
+          "bbox": null
+        },
+        {
+          "id": "p03-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "一",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "unc-001",
+          "unit_id": "p03-c02",
+          "start": 14,
+          "end": 15,
+          "surface": "仿",
+          "reason": "步仿末字按圖暫讀仿，不以文意改位。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "仿",
+            "位"
+          ]
+        }
+      ]
+    },
+    {
+      "page_id": "f04",
+      "index": 4,
+      "source_sha256": "535ba882ab11078cf86e6595d1c40b88d1440ef5a7615fb075f7ffa932f6aee7",
+      "width": 2500,
+      "height": 2302,
+      "official_label": "pp. [4]-[5]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/00c471fd-cddb-4816-a0e6-5cf77ca15961.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/00c471fd-cddb-4816-a0e6-5cf77ca15961/full/2500,/0/default.jpg",
+      "layout_note": "影像與物理面對照：p4 right + p5 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p04-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "因所種者、必俟七八日然後滿漿、漿滿方",
+          "bbox": null
+        },
+        {
+          "id": "p04-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "能傳種別人、旣種之後兩三日間見有紅",
+          "bbox": null
+        },
+        {
+          "id": "p04-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "點、似蚊口、四五日間漸漸起小泡、八日然",
+          "bbox": null
+        },
+        {
+          "id": "p04-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "後滿漿、其色畧黃、似珍珠四圍根脚有紅",
+          "bbox": null
+        },
+        {
+          "id": "p04-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "線圍任九日十日至紅周圍堅硬畧有些",
+          "bbox": null
+        },
+        {
+          "id": "p04-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "腫、十一日漸消中間先變白色、然後結痂、",
+          "bbox": null
+        },
+        {
+          "id": "p04-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "十四日至十八日、然後掃痂、掃痂後有痘",
+          "bbox": null
+        },
+        {
+          "id": "p04-c08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "瘢、凡小兒種痘、最好是出世後百日半歲",
+          "bbox": null
+        },
+        {
+          "id": "p04-c09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "之間、惟出牙之時、身體不甚自在、不宜種、",
+          "bbox": null
+        },
+        {
+          "id": "p04-running-title",
+          "layer": "original-print",
+          "role": "running-title",
+          "side": "right",
+          "text": "種痘捷法",
+          "bbox": null
+        },
+        {
+          "id": "p04-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "right",
+          "text": "一",
+          "bbox": null
+        },
+        {
+          "id": "p05-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "或身體有別樣病痛、亦不宜種、種後必出、",
+          "bbox": null
+        },
+        {
+          "id": "p05-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "或有時種不合法、其漿不能種入、故痘不",
+          "bbox": null
+        },
+        {
+          "id": "p05-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "出者有之、須多次種之、以種至必出為止、",
+          "bbox": null
+        },
+        {
+          "id": "p05-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "大抵旣種之後、身體必有些發熱、然後灌",
+          "bbox": null
+        },
+        {
+          "id": "p05-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "漿、漿滿後仍覺身體不安、穿着衣服、最要",
+          "bbox": null
+        },
+        {
+          "id": "p05-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "小心、勿令擦破、倘擦破見有熱痛用牛乳",
+          "bbox": null
+        },
+        {
+          "id": "p05-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "或粥渣貼之自愈、痘漿最要揀擇瘋疾者",
+          "bbox": null
+        },
+        {
+          "id": "p05-c08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "固不取用、虛弱者亦不取用、種時揀擇好",
+          "bbox": null
+        },
+        {
+          "id": "p05-c09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "漿、種了一人之後、至八日漿滿、可將此人痘",
+          "bbox": null
+        },
+        {
+          "id": "p05-running-title",
+          "layer": "original-print",
+          "role": "running-title",
+          "side": "left",
+          "text": "種痘捷法",
+          "bbox": null
+        },
+        {
+          "id": "p05-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "二",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "unc-002",
+          "unit_id": "p04-c05",
+          "start": 2,
+          "end": 3,
+          "surface": "任",
+          "reason": "按圖暫讀任，句法不順不自動改字。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "任",
+            "在"
+          ]
+        },
+        {
+          "id": "unc-003",
+          "unit_id": "p05-c07",
+          "start": 1,
+          "end": 2,
+          "surface": "粥",
+          "reason": "待較高解析與盲讀核右左部件。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "粥"
+          ]
+        }
+      ]
+    },
+    {
+      "page_id": "f05",
+      "index": 5,
+      "source_sha256": "bb32643cac3f51ba27a174b59639dc24e6660207b56555e64561bda5053d5f00",
+      "width": 2500,
+      "height": 2302,
+      "official_label": "pp. [6]-[7]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/2f1a12ef-6d9b-4353-80bd-608f79ae98f8.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/2f1a12ef-6d9b-4353-80bd-608f79ae98f8/full/2500,/0/default.jpg",
+      "layout_note": "影像與物理面對照：p6 right + p7 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p06-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "漿傳種別人、出一粒者可傳種幾人、出兩",
+          "bbox": null
+        },
+        {
+          "id": "p06-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "三粒者可傳種多人、唐人不肯將痘漿傳",
+          "bbox": null
+        },
+        {
+          "id": "p06-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "種別人、且又種痘獨趂春暖時候、天冷天",
+          "bbox": null
+        },
+        {
+          "id": "p06-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "熱、俱少人種、是以痘漿不能接續、必待外",
+          "bbox": null
+        },
+        {
+          "id": "p06-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "國帶來、始有得用、其實不必定用痘漿、痘",
+          "bbox": null
+        },
+        {
+          "id": "p06-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "痂亦可用、留痂之法、將小兒所落痘痂用",
+          "bbox": null
+        },
+        {
+          "id": "p06-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "錫箔包固、銅箔亦可再用紙包、外用蠟兩",
+          "bbox": null
+        },
+        {
+          "id": "p06-c08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "塊合埋、密其合口、勿令發壞、雖兩三年可",
+          "bbox": null
+        },
+        {
+          "id": "p06-c09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "用、臨用時取出的用水濕透調勻便可作",
+          "bbox": null
+        },
+        {
+          "id": "p06-running-title",
+          "layer": "original-print",
+          "role": "running-title",
+          "side": "right",
+          "text": "種痘捷法",
+          "bbox": null
+        },
+        {
+          "id": "p06-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "right",
+          "text": "二",
+          "bbox": null
+        },
+        {
+          "id": "p07-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "痘漿用、如此家家明曉、藏好痘痂依佢種",
+          "bbox": null
+        },
+        {
+          "id": "p07-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "法、自己便能與子女傳種、不須外國帶來",
+          "bbox": null
+        },
+        {
+          "id": "p07-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "痘漿、又不須費銀延請醫士、豈不甚便、余",
+          "bbox": null
+        },
+        {
+          "id": "p07-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "來粵東贈醫各症、兼贈種痘、每見貧人苦",
+          "bbox": null
+        },
+        {
+          "id": "p07-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "於無貲難求醫士、以致虛延數歲猶有未",
+          "bbox": null
+        },
+        {
+          "id": "p07-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "種者、偶遇痘症時行甚為可慮、茲將種痘",
+          "bbox": null
+        },
+        {
+          "id": "p07-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "捷法、刋送廣傳、俾遠近皆明種法、不用求",
+          "bbox": null
+        },
+        {
+          "id": "p07-c08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "人、及早自種、可以無虞痘患、是所厚望也",
+          "bbox": null
+        },
+        {
+          "id": "p07-c09",
+          "layer": "original-print",
+          "role": "title",
+          "side": "left",
+          "text": "留痘漿妙法",
+          "bbox": null
+        },
+        {
+          "id": "p07-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "三",
+          "bbox": null
+        }
+      ],
+      "uncertainties": [
+        {
+          "id": "unc-004",
+          "unit_id": "p07-c01",
+          "start": 15,
+          "end": 17,
+          "surface": "依佢",
+          "reason": "疑為口語用字，不正規化為其他詞。",
+          "cause": "initial-reading-uncertainty",
+          "extent": "known",
+          "candidates": [
+            "依佢"
+          ]
+        }
+      ]
+    },
+    {
+      "page_id": "f06",
+      "index": 6,
+      "source_sha256": "c58aa06bdfb3b5088ef3041c65912849cb83a8bd186115079b601ee6e088dd18",
+      "width": 2500,
+      "height": 2302,
+      "official_label": "pp. [8]-[9]",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/394b5495-ba1e-4a80-8510-f528c3c0740c.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/394b5495-ba1e-4a80-8510-f528c3c0740c/full/2500,/0/default.jpg",
+      "layout_note": "影像與物理面對照：p8 right + p9 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p08-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "種痘一道不留痘漿、固不能傳種別人、不",
+          "bbox": null
+        },
+        {
+          "id": "p08-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "善留痘漿亦不能隨時接續、其法莫善於",
+          "bbox": null
+        },
+        {
+          "id": "p08-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "用一玻璃小筒長約二寸餘、其管口以極",
+          "bbox": null
+        },
+        {
+          "id": "p08-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "細為妙、遂向滿漿之童子、小心以刀尖刺",
+          "bbox": null
+        },
+        {
+          "id": "p08-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "破其痘然後將此玻璃小筒輕輕印之、其",
+          "bbox": null
+        },
+        {
+          "id": "p08-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "漿自然入於管內、至於痘漿多少不一、惟",
+          "bbox": null
+        },
+        {
+          "id": "p08-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "擇壯旺者佳、總之每一玻璃小筒以裝一",
+          "bbox": null
+        },
+        {
+          "id": "p08-c08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "小半為度、待痘漿入後、遂打橫向燈火輕",
+          "bbox": null
+        },
+        {
+          "id": "p08-c09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "輕煖之、但不可煖正其漿、煖後卽以指捂",
+          "bbox": null
+        },
+        {
+          "id": "p08-running-title",
+          "layer": "original-print",
+          "role": "running-title",
+          "side": "right",
+          "text": "種痘",
+          "bbox": null
+        },
+        {
+          "id": "p08-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "right",
+          "text": "三",
+          "bbox": null
+        },
+        {
+          "id": "p09-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "住不近漿之一頭、其漿自然乘火氣而行",
+          "bbox": null
+        },
+        {
+          "id": "p09-c02",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "以行到中間為妥、如果行到中間、卽將燈",
+          "bbox": null
+        },
+        {
+          "id": "p09-c03",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "火燒鎔兩頭令其埋口、倘或不到中間、其",
+          "bbox": null
+        },
+        {
+          "id": "p09-c04",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "不近漿之一頭、仍用火埋口、其近漿之一",
+          "bbox": null
+        },
+        {
+          "id": "p09-c05",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "頭、則另用蠟封口、如此則痘漿方不洩氣",
+          "bbox": null
+        },
+        {
+          "id": "p09-c06",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "亦不致壞、大約雖兩三載亦可用也、臨用",
+          "bbox": null
+        },
+        {
+          "id": "p09-c07",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "時、打開兩頭、用口吹出以碟盛之、卽能取",
+          "bbox": null
+        },
+        {
+          "id": "p09-c08",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "漿傳種、豈不便捷、依此法多為預備、自可",
+          "bbox": null
+        },
+        {
+          "id": "p09-c09",
+          "layer": "original-print",
+          "role": "body",
+          "side": "left",
+          "text": "隨時濟人、非所謂盡美盡善歟",
+          "bbox": null
+        },
+        {
+          "id": "p09-running-title",
+          "layer": "original-print",
+          "role": "running-title",
+          "side": "left",
+          "text": "種痘捷法",
+          "bbox": null
+        },
+        {
+          "id": "p09-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "left",
+          "text": "四",
+          "bbox": null
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f07",
+      "index": 7,
+      "source_sha256": "b769eaa80e33a90682873e46ff7d3d62d7308d56044ffc2337ec0eb600c7ddf8",
+      "width": 2500,
+      "height": 2302,
+      "official_label": "p. [10] and inside lower cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/52f0e378-1cdc-489f-8516-f4498e3d3214.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/52f0e378-1cdc-489f-8516-f4498e3d3214/full/2500,/0/default.jpg",
+      "layout_note": "影像與物理面對照：p10 right + blank inside lower cover left。p10所述圖式未於固定掃描見清晰獨立印圖；沒有補畫或補錄圖內字。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "AI-initial-transcription-unreviewed",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [
+        {
+          "id": "p10-c01",
+          "layer": "original-print",
+          "role": "body",
+          "side": "right",
+          "text": "並將玻璃小筒圖式繪列於左",
+          "bbox": null
+        },
+        {
+          "id": "p10-c02",
+          "layer": "original-print",
+          "role": "colophon",
+          "side": "right",
+          "text": "博濟醫局醫士嘉氏謹識",
+          "bbox": null
+        },
+        {
+          "id": "p10-running-title",
+          "layer": "original-print",
+          "role": "running-title",
+          "side": "right",
+          "text": "種痘捷法",
+          "bbox": null
+        },
+        {
+          "id": "p10-printed-page-number",
+          "layer": "original-print",
+          "role": "printed-page-number",
+          "side": "right",
+          "text": "四",
+          "bbox": null
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "page_id": "f08",
+      "index": 8,
+      "source_sha256": "5571ae3172806c7d2904617459e19ce1645c323160a62e2b3314448a3c69b59d",
+      "width": 2500,
+      "height": 2302,
+      "official_label": "Lower cover",
+      "canvas_id": "https://iiif.bodleian.ox.ac.uk/iiif/canvas/e082931e-dd60-4d67-9803-0b94a7aac08c.json",
+      "image_url": "https://iiif.bodleian.ox.ac.uk/iiif/image/e082931e-dd60-4d67-9803-0b94a7aac08c/full/2500,/0/default.jpg",
+      "layout_note": "影像與物理面對照：lower cover。封面及後加館藏／現代注記僅作版面描述，不收入歷史原文字串。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
+      "layout_reviewed": true,
+      "layer_states": {
+        "original-print": "excluded-nonwork-or-no-separate-original-print",
+        "later-library-marks": "excluded-described-only"
+      },
+      "units": [],
+      "uncertainties": []
+    }
+  ]
+}
