@@ -1,65 +1,129 @@
 {
   "dataset_id": "bodleian-sinica1240",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "coordinate_system": "Unicode code points; zero-based half-open [start,end); unknown extent has null coordinates and surface",
   "items": [
     {
-      "page_id": "f03",
-      "id": "unc-001",
-      "unit_id": "p03-c02",
-      "start": 14,
-      "end": 15,
-      "surface": "仿",
-      "reason": "步仿末字按圖暫讀仿，不以文意改位。",
-      "cause": "initial-reading-uncertainty",
-      "extent": "known",
-      "candidates": [
-        "仿",
-        "位"
-      ]
-    },
-    {
       "page_id": "f04",
-      "id": "unc-002",
+      "id": "unc-001",
       "unit_id": "p04-c05",
       "start": 2,
       "end": 3,
       "surface": "任",
-      "reason": "按圖暫讀任，句法不順不自動改字。",
-      "cause": "initial-reading-uncertainty",
+      "reason": "按亻及壬形暫錄任；與另一AI讀法住有分歧，未以文意改字。",
+      "cause": "unresolved-after-AI-image-review",
       "extent": "known",
       "candidates": [
         "任",
-        "在"
+        "住"
       ]
     },
     {
       "page_id": "f04",
       "id": "unc-003",
-      "unit_id": "p05-c07",
-      "start": 1,
-      "end": 2,
-      "surface": "粥",
-      "reason": "待較高解析與盲讀核右左部件。",
-      "cause": "initial-reading-uncertainty",
+      "unit_id": "p04-c08",
+      "start": 16,
+      "end": 17,
+      "surface": "牛",
+      "reason": "可見字形暫錄牛；不以通行語句將底本默改半。",
+      "cause": "unresolved-after-AI-image-review",
       "extent": "known",
       "candidates": [
-        "粥"
+        "牛",
+        "半"
       ]
     },
     {
       "page_id": "f05",
-      "id": "unc-004",
+      "id": "unc-002",
       "unit_id": "p07-c01",
-      "start": 15,
-      "end": 17,
-      "surface": "依佢",
-      "reason": "疑為口語用字，不正規化為其他詞。",
-      "cause": "initial-reading-uncertainty",
+      "start": 14,
+      "end": 15,
+      "surface": "任",
+      "reason": "原刻右旁近壬形，暫錄任；初錄佢不沿用，仍保留異讀。",
+      "cause": "unresolved-after-AI-image-review",
       "extent": "known",
       "candidates": [
-        "依佢"
+        "任",
+        "佢"
       ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-005",
+      "unit_id": "p06-c09",
+      "start": 8,
+      "end": 9,
+      "surface": "一",
+      "reason": "出與的之間的分離橫畫暫以一編碼；另一圖讀任務認為可能是強調線／字形附筆，仍未定其文字性質。",
+      "cause": "unresolved-after-AI-image-review",
+      "extent": "known",
+      "candidates": [
+        "一"
+      ]
+    },
+    {
+      "page_id": "f05",
+      "id": "unc-006",
+      "unit_id": "p06-c04",
+      "start": 0,
+      "end": 18,
+      "surface": "熱、俱少人種、是以痘漿不能接續必待外",
+      "reason": "續後右側未見足夠清楚的獨立小斜刻點，未因語意補點，請控制端必要時核原圖。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。",
+      "cause": "unresolved-after-AI-image-review",
+      "extent": "located-unit",
+      "candidates": []
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-004",
+      "unit_id": "p08-c08",
+      "start": 1,
+      "end": 2,
+      "surface": "牛",
+      "reason": "原始解析局部見牛形，暫錄牛；另稿半保留為疑讀，無數值推論。",
+      "cause": "unresolved-after-AI-image-review",
+      "extent": "known",
+      "candidates": [
+        "牛",
+        "半"
+      ]
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-007",
+      "unit_id": "p08-c02",
+      "start": 0,
+      "end": 16,
+      "surface": "善留痘漿亦不能隨時接續其法莫善於",
+      "reason": "亦字右側筆畫與可能小點接近，未確認為獨立刻點，正文未加、。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。",
+      "cause": "unresolved-after-AI-image-review",
+      "extent": "located-unit",
+      "candidates": []
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-008",
+      "unit_id": "p08-c03",
+      "start": 0,
+      "end": 17,
+      "surface": "用一玻璃小筒長約二寸餘、其管口以極",
+      "reason": "筒後未確認有獨立小斜刻點，正文未因語意加、。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。",
+      "cause": "unresolved-after-AI-image-review",
+      "extent": "located-unit",
+      "candidates": []
+    },
+    {
+      "page_id": "f06",
+      "id": "unc-009",
+      "unit_id": "p08-c07",
+      "start": 0,
+      "end": 17,
+      "surface": "擇壯旺者、佳總之每一玻璃小筒以裝一",
+      "reason": "佳後未見足夠清楚的獨立斜刻點，正文未加、；讀序照原欄。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。",
+      "cause": "unresolved-after-AI-image-review",
+      "extent": "located-unit",
+      "candidates": []
     }
   ]
 }

@@ -1,20 +1,21 @@
 cff-version: 1.2.0
-message: Please cite this initial AI transcription and verify quotations against the
-  Bodleian images.
+message: Please cite this provisional AI-collated historical-text dataset and verify
+  quotations against the source.
 type: dataset
-title: 種痘捷法（1859，Bodleian Sinica 1240）：AI初錄資料集
+title: 種痘捷法（1859，Bodleian Sinica 1240）：AI獨立影像校讀資料集
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.1.0
+version: 0.2.0
 date-released: '2026-11-02'
 url: https://github.com/poplolioi11/bodleian-sinica1240-zhongdou-jiefa-1859
 repository-code: https://github.com/poplolioi11/bodleian-sinica1240-zhongdou-jiefa-1859
-abstract: Initial AI transcription of a Chinese medical-history booklet; unresolved
-  readings retained. No independent collation, human double proofreading, expert review
-  or measured accuracy. Historical text and source-image rights are separate.
+abstract: Provisional AI-collated Chinese medical-history text with source locations
+  and unresolved readings. No human double collation, expert review or measured transcription
+  accuracy. Historical text, original documentation and source images retain separate
+  rights.
 keywords:
 - 種痘捷法
 - Sinica 1240
@@ -32,4 +33,4 @@ keywords:
 - AI-assisted transcription
 - TEI XML
 - '1859'
-doi: 10.5281/zenodo.23870178
+doi: 10.5281/zenodo.23870679

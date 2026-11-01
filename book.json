@@ -1,20 +1,24 @@
 {
   "dataset_id": "bodleian-sinica1240",
-  "version": "0.1.0",
-  "title": "種痘捷法（1859，Bodleian Sinica 1240）：AI初錄資料集",
+  "version": "0.2.0",
+  "title": "種痘捷法（1859，Bodleian Sinica 1240）：AI獨立影像校讀資料集",
   "quality": {
-    "status": "AI-initial-transcription-unreviewed",
-    "independent_reading_applied": false,
+    "status": "AI-independent-image-reading-and-controller-source-adjudication",
+    "independent_reading_applied": true,
+    "all_69_column_units_compared": true,
     "human_double_collation": "not-performed",
     "expert_review": "not-performed",
+    "peer_review": "not-performed",
     "accuracy_measured": false,
-    "source_scope": "8 frames; 10 interior physical faces; 9 with original print; covers and later marks described only"
+    "traceability_status": "incomplete",
+    "traceability_limitation": "Native Codex specific actual model identifier unavailable; preserved as null.",
+    "source_scope": "8 source frames; 10 interior physical faces; 9 with historical print; covers and later marks described only"
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/657cb8d8-0323-48b5-9053-566eccc6421a/",
     "manifest_url": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/657cb8d8-0323-48b5-9053-566eccc6421a.json",
     "shelfmark": "Bodleian Libraries, Sinica 1240",
-    "edition": "咸豐九年（1859），博濟醫局藏板；題頁末字字形另見初錄及後續訂正。",
+    "edition": "咸豐九年（1859）新鋟，博濟醫局藏板；依本版題頁回圖裁定。",
     "author_attribution": "末題署「博濟醫局醫士嘉氏謹識」；本包不將現代整理者列為歷史作者。"
   },
   "metrics": {
@@ -24,8 +28,8 @@
     "initial_column_units": 69,
     "observed_paratext_units": 15,
     "units": 84,
-    "codepoints": 1187,
-    "uncertainty_records": 4,
+    "codepoints": 1189,
+    "uncertainty_records": 9,
     "square_placeholders": 0
   },
   "methods": {
@@ -41,7 +45,15 @@
       "原刻小斜點以U+3001表記；不是新增現代句讀。"
     ],
     "detailed_methods_public": false,
-    "image_to_text_full_reproduction_provided": false
+    "image_to_text_full_reproduction_provided": false,
+    "independent_AI_reading": {
+      "actual_model": "gemini-3.8-flash-high",
+      "batches": 2,
+      "images_per_batch": 3,
+      "verified_images": 6,
+      "initial_draft_not_supplied_to_independent_reading": true
+    },
+    "source_adjudication": "Fixed controller image adjudication, including original glyphs and source-visible point marks; unresolved readings retained."
   },
   "position_convention": "疑讀位置採單位內Unicode碼點0起算半開區間；bbox為null，只提供原影像及左右面定位。",
   "pages": [
@@ -75,7 +87,7 @@
       "layout_note": "影像與物理面對照：blank inside front + p1 title at left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-independent-reading-and-controller-adjudication",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -84,7 +96,7 @@
           "layer": "original-print",
           "role": "title",
           "side": "left",
-          "text": "咸豐九年新鐫",
+          "text": "咸豐九年新鋟",
           "bbox": null
         },
         {
@@ -126,7 +138,7 @@
       "layout_note": "影像與物理面對照：p2 bleedthrough at right + p3 at left。右側p02為題頁透印，不重錄為另一份正文；左側p03有歷史印刷文字。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-independent-reading-and-controller-adjudication",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -143,7 +155,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "種痘之法、多在手臂上約寸餘步仿用尖",
+          "text": "種痘之法、多在手臂上約寸餘步位、用尖",
           "bbox": null
         },
         {
@@ -151,7 +163,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "利刀仔、或用針、輕輕挑破皮左右每兩三",
+          "text": "利、刀仔、或用針、輕輕挑破皮、左右每兩三",
           "bbox": null
         },
         {
@@ -159,7 +171,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "處、以不見血流為妙、再用刀尖染些痘漿",
+          "text": "處、以不見血流為妙、再用刀尖、染些痘漿",
           "bbox": null
         },
         {
@@ -191,7 +203,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "刺五六點、其漿自然從所刺之處種入、此",
+          "text": "刺五六點其漿自然從所刺之處種入、此",
           "bbox": null
         },
         {
@@ -219,22 +231,7 @@
           "bbox": null
         }
       ],
-      "uncertainties": [
-        {
-          "id": "unc-001",
-          "unit_id": "p03-c02",
-          "start": 14,
-          "end": 15,
-          "surface": "仿",
-          "reason": "步仿末字按圖暫讀仿，不以文意改位。",
-          "cause": "initial-reading-uncertainty",
-          "extent": "known",
-          "candidates": [
-            "仿",
-            "位"
-          ]
-        }
-      ]
+      "uncertainties": []
     },
     {
       "page_id": "f04",
@@ -248,7 +245,7 @@
       "layout_note": "影像與物理面對照：p4 right + p5 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-independent-reading-and-controller-adjudication",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -265,7 +262,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "能傳種別人、旣種之後兩三日間見有紅",
+          "text": "能傳種別人、旣種之後、兩三日間、見有紅",
           "bbox": null
         },
         {
@@ -273,7 +270,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "點、似蚊口、四五日間漸漸起小泡、八日然",
+          "text": "點似蚊口、四五日間漸漸起小泡、八日然",
           "bbox": null
         },
         {
@@ -281,7 +278,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "後滿漿、其色畧黃、似珍珠四圍根脚有紅",
+          "text": "後滿漿、其色畧黃、似珍珠、四圍根脚有紅",
           "bbox": null
         },
         {
@@ -289,7 +286,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "線圍任九日十日至紅周圍堅硬畧有些",
+          "text": "線圍任九日十日至紅、周圍堅硬、畧有些",
           "bbox": null
         },
         {
@@ -297,7 +294,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "腫、十一日漸消中間先變白色、然後結痂、",
+          "text": "腫、十一日漸消、中間先變白色、然後結靨、",
           "bbox": null
         },
         {
@@ -305,7 +302,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "十四日至十八日、然後掃痂、掃痂後有痘",
+          "text": "十四日至十八日、然後掃靨、掃靨後有痘",
           "bbox": null
         },
         {
@@ -313,7 +310,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "瘢、凡小兒種痘、最好是出世後百日半歲",
+          "text": "疼、凡小兒種痘、最好是出世後百日牛歲",
           "bbox": null
         },
         {
@@ -377,7 +374,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "漿、漿滿後仍覺身體不安、穿着衣服、最要",
+          "text": "漿、漿滿後、仍覺身體不安、穿着衣服、最要",
           "bbox": null
         },
         {
@@ -385,7 +382,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "小心、勿令擦破、倘擦破見有熱痛用牛乳",
+          "text": "小心、勿令擦破、倘擦破、見有熱痛、用牛乳",
           "bbox": null
         },
         {
@@ -393,7 +390,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "或粥渣貼之自愈、痘漿最要揀擇瘋疾者",
+          "text": "或粥渣、貼之自愈、痘漿最要揀擇瘋疾者",
           "bbox": null
         },
         {
@@ -431,30 +428,31 @@
       ],
       "uncertainties": [
         {
-          "id": "unc-002",
+          "id": "unc-001",
           "unit_id": "p04-c05",
           "start": 2,
           "end": 3,
           "surface": "任",
-          "reason": "按圖暫讀任，句法不順不自動改字。",
-          "cause": "initial-reading-uncertainty",
+          "reason": "按亻及壬形暫錄任；與另一AI讀法住有分歧，未以文意改字。",
+          "cause": "unresolved-after-AI-image-review",
           "extent": "known",
           "candidates": [
             "任",
-            "在"
+            "住"
           ]
         },
         {
           "id": "unc-003",
-          "unit_id": "p05-c07",
-          "start": 1,
-          "end": 2,
-          "surface": "粥",
-          "reason": "待較高解析與盲讀核右左部件。",
-          "cause": "initial-reading-uncertainty",
+          "unit_id": "p04-c08",
+          "start": 16,
+          "end": 17,
+          "surface": "牛",
+          "reason": "可見字形暫錄牛；不以通行語句將底本默改半。",
+          "cause": "unresolved-after-AI-image-review",
           "extent": "known",
           "candidates": [
-            "粥"
+            "牛",
+            "半"
           ]
         }
       ]
@@ -471,7 +469,7 @@
       "layout_note": "影像與物理面對照：p6 right + p7 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-independent-reading-and-controller-adjudication",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -496,7 +494,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "種別人、且又種痘獨趂春暖時候、天冷天",
+          "text": "種別人、且又種痘獨趂春暖時候天冷天",
           "bbox": null
         },
         {
@@ -504,7 +502,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "熱、俱少人種、是以痘漿不能接續、必待外",
+          "text": "熱、俱少人種、是以痘漿不能接續必待外",
           "bbox": null
         },
         {
@@ -512,7 +510,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "國帶來、始有得用、其實不必定用痘漿、痘",
+          "text": "國帶來、始有得用、其實不必定用痘漿痘",
           "bbox": null
         },
         {
@@ -520,7 +518,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "痂亦可用、留痂之法、將小兒所落痘痂用",
+          "text": "靨亦可用、留靨之法、將小兒所落痘靨用",
           "bbox": null
         },
         {
@@ -544,7 +542,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "用、臨用時取出的用水濕透調勻便可作",
+          "text": "用、臨用時、取出一的用水濕透調勻、便可作",
           "bbox": null
         },
         {
@@ -568,7 +566,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "痘漿用、如此家家明曉、藏好痘痂依佢種",
+          "text": "痘漿用如此家家明曉藏好痘靨依任種",
           "bbox": null
         },
         {
@@ -576,7 +574,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "法、自己便能與子女傳種、不須外國帶來",
+          "text": "法、自己便能與子女傳種不須外國帶來",
           "bbox": null
         },
         {
@@ -592,7 +590,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "來粵東贈醫各症、兼贈種痘、每見貧人苦",
+          "text": "來粵東贈醫各症兼贈種痘、每見貧人苦",
           "bbox": null
         },
         {
@@ -600,7 +598,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "於無貲難求醫士、以致虛延數歲猶有未",
+          "text": "於無貲、難求醫士以致虛延數歲猶有未",
           "bbox": null
         },
         {
@@ -608,7 +606,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "種者、偶遇痘症時行甚為可慮、茲將種痘",
+          "text": "種者、偶遇痘症時行、甚為可慮、茲將種痘",
           "bbox": null
         },
         {
@@ -616,7 +614,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "捷法、刋送廣傳、俾遠近皆明種法、不用求",
+          "text": "捷法、刋送廣傳、俾遠近皆明種法不用求",
           "bbox": null
         },
         {
@@ -646,17 +644,42 @@
       ],
       "uncertainties": [
         {
-          "id": "unc-004",
+          "id": "unc-002",
           "unit_id": "p07-c01",
-          "start": 15,
-          "end": 17,
-          "surface": "依佢",
-          "reason": "疑為口語用字，不正規化為其他詞。",
-          "cause": "initial-reading-uncertainty",
+          "start": 14,
+          "end": 15,
+          "surface": "任",
+          "reason": "原刻右旁近壬形，暫錄任；初錄佢不沿用，仍保留異讀。",
+          "cause": "unresolved-after-AI-image-review",
           "extent": "known",
           "candidates": [
-            "依佢"
+            "任",
+            "佢"
           ]
+        },
+        {
+          "id": "unc-005",
+          "unit_id": "p06-c09",
+          "start": 8,
+          "end": 9,
+          "surface": "一",
+          "reason": "出與的之間的分離橫畫暫以一編碼；另一圖讀任務認為可能是強調線／字形附筆，仍未定其文字性質。",
+          "cause": "unresolved-after-AI-image-review",
+          "extent": "known",
+          "candidates": [
+            "一"
+          ]
+        },
+        {
+          "id": "unc-006",
+          "unit_id": "p06-c04",
+          "start": 0,
+          "end": 18,
+          "surface": "熱、俱少人種、是以痘漿不能接續必待外",
+          "reason": "續後右側未見足夠清楚的獨立小斜刻點，未因語意補點，請控制端必要時核原圖。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。",
+          "cause": "unresolved-after-AI-image-review",
+          "extent": "located-unit",
+          "candidates": []
         }
       ]
     },
@@ -672,7 +695,7 @@
       "layout_note": "影像與物理面對照：p8 right + p9 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-independent-reading-and-controller-adjudication",
         "later-library-marks": "excluded-described-only"
       },
       "units": [
@@ -689,7 +712,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "善留痘漿亦不能隨時接續、其法莫善於",
+          "text": "善留痘漿亦不能隨時接續其法莫善於",
           "bbox": null
         },
         {
@@ -713,7 +736,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "破其痘然後將此玻璃小筒輕輕印之、其",
+          "text": "破其痘、然後將此玻璃小筒、輕輕印之其",
           "bbox": null
         },
         {
@@ -721,7 +744,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "漿自然入於管內、至於痘漿多少不一、惟",
+          "text": "漿自然入、於管內、至於痘漿多少不一、惟",
           "bbox": null
         },
         {
@@ -729,7 +752,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "擇壯旺者佳、總之每一玻璃小筒以裝一",
+          "text": "擇壯旺者、佳總之每一玻璃小筒以裝一",
           "bbox": null
         },
         {
@@ -737,7 +760,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "小半為度、待痘漿入後、遂打橫向燈火輕",
+          "text": "小牛為度、待痘漿入後、遂打橫向燈火輕",
           "bbox": null
         },
         {
@@ -745,7 +768,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "輕煖之、但不可煖正其漿、煖後卽以指捂",
+          "text": "輕燂之但不可燂正其漿、燂後卽以指搯",
           "bbox": null
         },
         {
@@ -777,7 +800,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "以行到中間為妥、如果行到中間、卽將燈",
+          "text": "以行到中間為妥、如果行到中間卽將燈",
           "bbox": null
         },
         {
@@ -785,7 +808,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "火燒鎔兩頭令其埋口、倘或不到中間、其",
+          "text": "火燒鎔兩頭令其埋口倘或不到中間、其",
           "bbox": null
         },
         {
@@ -793,7 +816,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "不近漿之一頭、仍用火埋口、其近漿之一",
+          "text": "不近漿之一頭、仍用火埋口其近漿之一",
           "bbox": null
         },
         {
@@ -801,7 +824,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "頭、則另用蠟封口、如此則痘漿方不洩氣",
+          "text": "頭則另用蠟封口如此則痘漿方不洩氣、",
           "bbox": null
         },
         {
@@ -817,7 +840,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "時、打開兩頭、用口吹出以碟盛之、卽能取",
+          "text": "時打開兩頭用口吹出以碟盛之、卽能取",
           "bbox": null
         },
         {
@@ -825,7 +848,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "漿傳種、豈不便捷、依此法多為預備、自可",
+          "text": "漿傳種、豈不便捷、依此法多為預備自可",
           "bbox": null
         },
         {
@@ -833,7 +856,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "left",
-          "text": "隨時濟人、非所謂盡美盡善歟",
+          "text": "隨時濟人、非所謂盡美盡善歟、",
           "bbox": null
         },
         {
@@ -853,7 +876,55 @@
           "bbox": null
         }
       ],
-      "uncertainties": []
+      "uncertainties": [
+        {
+          "id": "unc-004",
+          "unit_id": "p08-c08",
+          "start": 1,
+          "end": 2,
+          "surface": "牛",
+          "reason": "原始解析局部見牛形，暫錄牛；另稿半保留為疑讀，無數值推論。",
+          "cause": "unresolved-after-AI-image-review",
+          "extent": "known",
+          "candidates": [
+            "牛",
+            "半"
+          ]
+        },
+        {
+          "id": "unc-007",
+          "unit_id": "p08-c02",
+          "start": 0,
+          "end": 16,
+          "surface": "善留痘漿亦不能隨時接續其法莫善於",
+          "reason": "亦字右側筆畫與可能小點接近，未確認為獨立刻點，正文未加、。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。",
+          "cause": "unresolved-after-AI-image-review",
+          "extent": "located-unit",
+          "candidates": []
+        },
+        {
+          "id": "unc-008",
+          "unit_id": "p08-c03",
+          "start": 0,
+          "end": 17,
+          "surface": "用一玻璃小筒長約二寸餘、其管口以極",
+          "reason": "筒後未確認有獨立小斜刻點，正文未因語意加、。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。",
+          "cause": "unresolved-after-AI-image-review",
+          "extent": "located-unit",
+          "candidates": []
+        },
+        {
+          "id": "unc-009",
+          "unit_id": "p08-c07",
+          "start": 0,
+          "end": 17,
+          "surface": "擇壯旺者、佳總之每一玻璃小筒以裝一",
+          "reason": "佳後未見足夠清楚的獨立斜刻點，正文未加、；讀序照原欄。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。",
+          "cause": "unresolved-after-AI-image-review",
+          "extent": "located-unit",
+          "candidates": []
+        }
+      ]
     },
     {
       "page_id": "f07",
@@ -867,7 +938,7 @@
       "layout_note": "影像與物理面對照：p10 right + blank inside lower cover left。p10所述圖式未於固定掃描見清晰獨立印圖；沒有補畫或補錄圖內字。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。",
       "layout_reviewed": true,
       "layer_states": {
-        "original-print": "AI-initial-transcription-unreviewed",
+        "original-print": "AI-independent-reading-and-controller-adjudication",
         "later-library-marks": "excluded-described-only"
       },
       "units": [

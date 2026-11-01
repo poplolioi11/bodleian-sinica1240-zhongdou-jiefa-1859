@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>種痘捷法（1859，Bodleian Sinica 1240）：AI初錄資料集</title>
+        <title>種痘捷法（1859，Bodleian Sinica 1240）：AI獨立影像校讀資料集</title>
         <author role="historical-author-attribution">末題署「博濟醫局醫士嘉氏謹識」；本包不將現代整理者列為歷史作者。</author>
         <respStmt>
           <resp>資料整理與編碼</resp>
@@ -11,22 +11,22 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>0.1.0</edition>
+        <edition>0.2.0</edition>
       </editionStmt>
       <publicationStmt>
         <publisher>Chen-Yu Chu</publisher>
         <idno type="dataset-id">bodleian-sinica1240</idno>
-        <idno type="DOI">10.5281/zenodo.23870178</idno>
+        <idno type="DOI">10.5281/zenodo.23870679</idno>
         <availability>
           <p>古籍原文不新增限制；具著作權的自有說明與編排採CC BY 4.0。來源影像未收入本包，另依館方條款。</p>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>種痘捷法（1859，Bodleian Sinica 1240）：AI初錄資料集</title>
+          <title>種痘捷法（1859，Bodleian Sinica 1240）：AI獨立影像校讀資料集</title>
           <author>末題署「博濟醫局醫士嘉氏謹識」；本包不將現代整理者列為歷史作者。</author>
           <idno type="shelfmark">Bodleian Libraries, Sinica 1240</idno>
-          <note type="edition">咸豐九年（1859），博濟醫局藏板；題頁末字字形另見初錄及後續訂正。</note>
+          <note type="edition">咸豐九年（1859）新鋟，博濟醫局藏板；依本版題頁回圖裁定。</note>
           <ref target="https://digital.bodleian.ox.ac.uk/objects/657cb8d8-0323-48b5-9053-566eccc6421a/">館方底本</ref>
           <ref target="https://iiif.bodleian.ox.ac.uk/iiif/manifest/657cb8d8-0323-48b5-9053-566eccc6421a.json">館方IIIF manifest</ref>
         </bibl>
@@ -35,8 +35,8 @@
     <encodingDesc>
       <editorialDecl>
         <interpretation>
-          <p>品質狀態：{"accuracy_measured": false, "expert_review": "not-performed", "human_double_collation": "not-performed", "independent_reading_applied": false, "source_scope": "8 frames; 10 interior physical faces; 9 with original print; covers and later marks described only", "status": "AI-initial-transcription-unreviewed"}。格式驗證不提高讀字覆核程度。本TEI未編碼完整校勘app。</p>
-          <p n="declared-methods">{"actual_model": null, "detailed_methods_public": false, "exclusions": ["p02是題頁背面透印，不作第二份歷史正文。", "末面p10稱繪列圖式於左，但現有掃描未見清晰獨立圖式，未補畫。", "版心在某些掃描邊緣被裁／摺，不以他面補成完整字。", "原刻小斜點以U+3001表記；不是新增現代句讀。"], "image_to_text_full_reproduction_provided": false, "initial_reader": "OpenAI Codex controller; actual specific model identifier unavailable", "normalization": "原字串、異體與原刻點號保留；原刻小斜點以U+3001表記。", "paratext": "僅將固定初錄明確觀察的版心題字及印頁碼轉為獨立單位；空值不補字。", "purpose": "醫學史及古籍文獻數位化；提供原文檢索、引用與後續校訂。"}</p>
+          <p>品質狀態：{"accuracy_measured": false, "all_69_column_units_compared": true, "expert_review": "not-performed", "human_double_collation": "not-performed", "independent_reading_applied": true, "peer_review": "not-performed", "source_scope": "8 source frames; 10 interior physical faces; 9 with historical print; covers and later marks described only", "status": "AI-independent-image-reading-and-controller-source-adjudication", "traceability_limitation": "Native Codex specific actual model identifier unavailable; preserved as null.", "traceability_status": "incomplete"}。格式驗證不提高讀字覆核程度。本TEI未編碼完整校勘app。</p>
+          <p n="declared-methods">{"actual_model": null, "detailed_methods_public": false, "exclusions": ["p02是題頁背面透印，不作第二份歷史正文。", "末面p10稱繪列圖式於左，但現有掃描未見清晰獨立圖式，未補畫。", "版心在某些掃描邊緣被裁／摺，不以他面補成完整字。", "原刻小斜點以U+3001表記；不是新增現代句讀。"], "image_to_text_full_reproduction_provided": false, "independent_AI_reading": {"actual_model": "gemini-3.8-flash-high", "batches": 2, "images_per_batch": 3, "initial_draft_not_supplied_to_independent_reading": true, "verified_images": 6}, "initial_reader": "OpenAI Codex controller; actual specific model identifier unavailable", "normalization": "原字串、異體與原刻點號保留；原刻小斜點以U+3001表記。", "paratext": "僅將固定初錄明確觀察的版心題字及印頁碼轉為獨立單位；空值不補字。", "purpose": "醫學史及古籍文獻數位化；提供原文檢索、引用與後續校訂。", "source_adjudication": "Fixed controller image adjudication, including original glyphs and source-visible point marks; unresolved readings retained."}</p>
         </interpretation>
         <normalization>
           <p>保留固定JSON內每unit的精確字串及順序；原刻點號以頓號表示。Unicode字元不等同原形摹本。疑字座標以Unicode碼點0起半開區間表示，詳uncertainties.json。</p>
@@ -105,8 +105,8 @@
       <div type="source-image" n="Inside upper cover and p. [1]" facs="#surface-f02" xml:id="f02">
         <note type="layout">影像與物理面對照：blank inside front + p1 title at left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。</note>
         <note type="layout-reviewed">true</note>
-        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-initial-transcription-unreviewed"}</note>
-        <ab type="title" n="left" facs="#surface-f02" xml:id="p01-c01">咸豐九年新鐫</ab>
+        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-independent-reading-and-controller-adjudication"}</note>
+        <ab type="title" n="left" facs="#surface-f02" xml:id="p01-c01">咸豐九年新鋟</ab>
         <ab type="title" n="left" facs="#surface-f02" xml:id="p01-c02">另新附留痘漿妙法</ab>
         <ab type="title" n="left" facs="#surface-f02" xml:id="p01-c03">種痘捷法</ab>
         <ab type="title" n="left" facs="#surface-f02" xml:id="p01-c04">博濟醫局藏板</ab>
@@ -114,32 +114,31 @@
       <div type="source-image" n="pp. [2]-[3]" facs="#surface-f03" xml:id="f03">
         <note type="layout">影像與物理面對照：p2 bleedthrough at right + p3 at left。右側p02為題頁透印，不重錄為另一份正文；左側p03有歷史印刷文字。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。</note>
         <note type="layout-reviewed">true</note>
-        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-initial-transcription-unreviewed"}</note>
+        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-independent-reading-and-controller-adjudication"}</note>
         <ab type="title" n="left" facs="#surface-f03" xml:id="p03-c01">種痘論</ab>
-        <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c02">種痘之法、多在手臂上約寸餘步仿用尖</ab>
-        <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c03">利刀仔、或用針、輕輕挑破皮左右每兩三</ab>
-        <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c04">處、以不見血流為妙、再用刀尖染些痘漿</ab>
+        <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c02">種痘之法、多在手臂上約寸餘步位、用尖</ab>
+        <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c03">利、刀仔、或用針、輕輕挑破皮、左右每兩三</ab>
+        <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c04">處、以不見血流為妙、再用刀尖、染些痘漿</ab>
         <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c05">搽在挑破處、倘若手重、挑皮深破、待息間</ab>
         <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c06">血止、然後染漿種入、此一法也、更有不用</ab>
         <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c07">先挑破皮、卽將刀尖染痘漿、每粒處輕輕</ab>
-        <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c08">刺五六點、其漿自然從所刺之處種入、此</ab>
+        <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c08">刺五六點其漿自然從所刺之處種入、此</ab>
         <ab type="body" n="left" facs="#surface-f03" xml:id="p03-c09">法較為簡捷、種期必以七日至九日為準、</ab>
         <ab type="running-title" n="left" facs="#surface-f03" xml:id="p03-running-title">種痘捷法</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f03" xml:id="p03-printed-page-number">一</ab>
-        <note type="transcription-uncertainty" target="#p03-c02" corresp="uncertainties.json#unc-001" xml:id="unc-001">{"candidates": ["仿", "位"], "cause": "initial-reading-uncertainty", "end": 15, "extent": "known", "id": "unc-001", "reason": "步仿末字按圖暫讀仿，不以文意改位。", "start": 14, "surface": "仿", "unit_id": "p03-c02"}</note>
       </div>
       <div type="source-image" n="pp. [4]-[5]" facs="#surface-f04" xml:id="f04">
         <note type="layout">影像與物理面對照：p4 right + p5 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。</note>
         <note type="layout-reviewed">true</note>
-        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-initial-transcription-unreviewed"}</note>
+        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-independent-reading-and-controller-adjudication"}</note>
         <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c01">因所種者、必俟七八日然後滿漿、漿滿方</ab>
-        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c02">能傳種別人、旣種之後兩三日間見有紅</ab>
-        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c03">點、似蚊口、四五日間漸漸起小泡、八日然</ab>
-        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c04">後滿漿、其色畧黃、似珍珠四圍根脚有紅</ab>
-        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c05">線圍任九日十日至紅周圍堅硬畧有些</ab>
-        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c06">腫、十一日漸消中間先變白色、然後結痂、</ab>
-        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c07">十四日至十八日、然後掃痂、掃痂後有痘</ab>
-        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c08">瘢、凡小兒種痘、最好是出世後百日半歲</ab>
+        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c02">能傳種別人、旣種之後、兩三日間、見有紅</ab>
+        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c03">點似蚊口、四五日間漸漸起小泡、八日然</ab>
+        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c04">後滿漿、其色畧黃、似珍珠、四圍根脚有紅</ab>
+        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c05">線圍任九日十日至紅、周圍堅硬、畧有些</ab>
+        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c06">腫、十一日漸消、中間先變白色、然後結靨、</ab>
+        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c07">十四日至十八日、然後掃靨、掃靨後有痘</ab>
+        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c08">疼、凡小兒種痘、最好是出世後百日牛歲</ab>
         <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c09">之間、惟出牙之時、身體不甚自在、不宜種、</ab>
         <ab type="running-title" n="right" facs="#surface-f04" xml:id="p04-running-title">種痘捷法</ab>
         <ab type="printed-page-number" n="right" facs="#surface-f04" xml:id="p04-printed-page-number">一</ab>
@@ -147,74 +146,80 @@
         <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c02">或有時種不合法、其漿不能種入、故痘不</ab>
         <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c03">出者有之、須多次種之、以種至必出為止、</ab>
         <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c04">大抵旣種之後、身體必有些發熱、然後灌</ab>
-        <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c05">漿、漿滿後仍覺身體不安、穿着衣服、最要</ab>
-        <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c06">小心、勿令擦破、倘擦破見有熱痛用牛乳</ab>
-        <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c07">或粥渣貼之自愈、痘漿最要揀擇瘋疾者</ab>
+        <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c05">漿、漿滿後、仍覺身體不安、穿着衣服、最要</ab>
+        <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c06">小心、勿令擦破、倘擦破、見有熱痛、用牛乳</ab>
+        <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c07">或粥渣、貼之自愈、痘漿最要揀擇瘋疾者</ab>
         <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c08">固不取用、虛弱者亦不取用、種時揀擇好</ab>
         <ab type="body" n="left" facs="#surface-f04" xml:id="p05-c09">漿、種了一人之後、至八日漿滿、可將此人痘</ab>
         <ab type="running-title" n="left" facs="#surface-f04" xml:id="p05-running-title">種痘捷法</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f04" xml:id="p05-printed-page-number">二</ab>
-        <note type="transcription-uncertainty" target="#p04-c05" corresp="uncertainties.json#unc-002" xml:id="unc-002">{"candidates": ["任", "在"], "cause": "initial-reading-uncertainty", "end": 3, "extent": "known", "id": "unc-002", "reason": "按圖暫讀任，句法不順不自動改字。", "start": 2, "surface": "任", "unit_id": "p04-c05"}</note>
-        <note type="transcription-uncertainty" target="#p05-c07" corresp="uncertainties.json#unc-003" xml:id="unc-003">{"candidates": ["粥"], "cause": "initial-reading-uncertainty", "end": 2, "extent": "known", "id": "unc-003", "reason": "待較高解析與盲讀核右左部件。", "start": 1, "surface": "粥", "unit_id": "p05-c07"}</note>
+        <note type="transcription-uncertainty" target="#p04-c05" corresp="uncertainties.json#unc-001" xml:id="unc-001">{"candidates": ["任", "住"], "cause": "unresolved-after-AI-image-review", "end": 3, "extent": "known", "id": "unc-001", "reason": "按亻及壬形暫錄任；與另一AI讀法住有分歧，未以文意改字。", "start": 2, "surface": "任", "unit_id": "p04-c05"}</note>
+        <note type="transcription-uncertainty" target="#p04-c08" corresp="uncertainties.json#unc-003" xml:id="unc-003">{"candidates": ["牛", "半"], "cause": "unresolved-after-AI-image-review", "end": 17, "extent": "known", "id": "unc-003", "reason": "可見字形暫錄牛；不以通行語句將底本默改半。", "start": 16, "surface": "牛", "unit_id": "p04-c08"}</note>
       </div>
       <div type="source-image" n="pp. [6]-[7]" facs="#surface-f05" xml:id="f05">
         <note type="layout">影像與物理面對照：p6 right + p7 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。</note>
         <note type="layout-reviewed">true</note>
-        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-initial-transcription-unreviewed"}</note>
+        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-independent-reading-and-controller-adjudication"}</note>
         <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c01">漿傳種別人、出一粒者可傳種幾人、出兩</ab>
         <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c02">三粒者可傳種多人、唐人不肯將痘漿傳</ab>
-        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c03">種別人、且又種痘獨趂春暖時候、天冷天</ab>
-        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c04">熱、俱少人種、是以痘漿不能接續、必待外</ab>
-        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c05">國帶來、始有得用、其實不必定用痘漿、痘</ab>
-        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c06">痂亦可用、留痂之法、將小兒所落痘痂用</ab>
+        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c03">種別人、且又種痘獨趂春暖時候天冷天</ab>
+        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c04">熱、俱少人種、是以痘漿不能接續必待外</ab>
+        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c05">國帶來、始有得用、其實不必定用痘漿痘</ab>
+        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c06">靨亦可用、留靨之法、將小兒所落痘靨用</ab>
         <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c07">錫箔包固、銅箔亦可再用紙包、外用蠟兩</ab>
         <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c08">塊合埋、密其合口、勿令發壞、雖兩三年可</ab>
-        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c09">用、臨用時取出的用水濕透調勻便可作</ab>
+        <ab type="body" n="right" facs="#surface-f05" xml:id="p06-c09">用、臨用時、取出一的用水濕透調勻、便可作</ab>
         <ab type="running-title" n="right" facs="#surface-f05" xml:id="p06-running-title">種痘捷法</ab>
         <ab type="printed-page-number" n="right" facs="#surface-f05" xml:id="p06-printed-page-number">二</ab>
-        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c01">痘漿用、如此家家明曉、藏好痘痂依佢種</ab>
-        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c02">法、自己便能與子女傳種、不須外國帶來</ab>
+        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c01">痘漿用如此家家明曉藏好痘靨依任種</ab>
+        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c02">法、自己便能與子女傳種不須外國帶來</ab>
         <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c03">痘漿、又不須費銀延請醫士、豈不甚便、余</ab>
-        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c04">來粵東贈醫各症、兼贈種痘、每見貧人苦</ab>
-        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c05">於無貲難求醫士、以致虛延數歲猶有未</ab>
-        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c06">種者、偶遇痘症時行甚為可慮、茲將種痘</ab>
-        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c07">捷法、刋送廣傳、俾遠近皆明種法、不用求</ab>
+        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c04">來粵東贈醫各症兼贈種痘、每見貧人苦</ab>
+        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c05">於無貲、難求醫士以致虛延數歲猶有未</ab>
+        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c06">種者、偶遇痘症時行、甚為可慮、茲將種痘</ab>
+        <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c07">捷法、刋送廣傳、俾遠近皆明種法不用求</ab>
         <ab type="body" n="left" facs="#surface-f05" xml:id="p07-c08">人、及早自種、可以無虞痘患、是所厚望也</ab>
         <ab type="title" n="left" facs="#surface-f05" xml:id="p07-c09">留痘漿妙法</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f05" xml:id="p07-printed-page-number">三</ab>
-        <note type="transcription-uncertainty" target="#p07-c01" corresp="uncertainties.json#unc-004" xml:id="unc-004">{"candidates": ["依佢"], "cause": "initial-reading-uncertainty", "end": 17, "extent": "known", "id": "unc-004", "reason": "疑為口語用字，不正規化為其他詞。", "start": 15, "surface": "依佢", "unit_id": "p07-c01"}</note>
+        <note type="transcription-uncertainty" target="#p07-c01" corresp="uncertainties.json#unc-002" xml:id="unc-002">{"candidates": ["任", "佢"], "cause": "unresolved-after-AI-image-review", "end": 15, "extent": "known", "id": "unc-002", "reason": "原刻右旁近壬形，暫錄任；初錄佢不沿用，仍保留異讀。", "start": 14, "surface": "任", "unit_id": "p07-c01"}</note>
+        <note type="transcription-uncertainty" target="#p06-c09" corresp="uncertainties.json#unc-005" xml:id="unc-005">{"candidates": ["一"], "cause": "unresolved-after-AI-image-review", "end": 9, "extent": "known", "id": "unc-005", "reason": "出與的之間的分離橫畫暫以一編碼；另一圖讀任務認為可能是強調線／字形附筆，仍未定其文字性質。", "start": 8, "surface": "一", "unit_id": "p06-c09"}</note>
+        <note type="transcription-uncertainty" target="#p06-c04" corresp="uncertainties.json#unc-006" xml:id="unc-006">{"candidates": [], "cause": "unresolved-after-AI-image-review", "end": 18, "extent": "located-unit", "id": "unc-006", "reason": "續後右側未見足夠清楚的獨立小斜刻點，未因語意補點，請控制端必要時核原圖。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。", "start": 0, "surface": "熱、俱少人種、是以痘漿不能接續必待外", "unit_id": "p06-c04"}</note>
       </div>
       <div type="source-image" n="pp. [8]-[9]" facs="#surface-f06" xml:id="f06">
         <note type="layout">影像與物理面對照：p8 right + p9 left。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。</note>
         <note type="layout-reviewed">true</note>
-        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-initial-transcription-unreviewed"}</note>
+        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-independent-reading-and-controller-adjudication"}</note>
         <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c01">種痘一道不留痘漿、固不能傳種別人、不</ab>
-        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c02">善留痘漿亦不能隨時接續、其法莫善於</ab>
+        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c02">善留痘漿亦不能隨時接續其法莫善於</ab>
         <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c03">用一玻璃小筒長約二寸餘、其管口以極</ab>
         <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c04">細為妙、遂向滿漿之童子、小心以刀尖刺</ab>
-        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c05">破其痘然後將此玻璃小筒輕輕印之、其</ab>
-        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c06">漿自然入於管內、至於痘漿多少不一、惟</ab>
-        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c07">擇壯旺者佳、總之每一玻璃小筒以裝一</ab>
-        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c08">小半為度、待痘漿入後、遂打橫向燈火輕</ab>
-        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c09">輕煖之、但不可煖正其漿、煖後卽以指捂</ab>
+        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c05">破其痘、然後將此玻璃小筒、輕輕印之其</ab>
+        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c06">漿自然入、於管內、至於痘漿多少不一、惟</ab>
+        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c07">擇壯旺者、佳總之每一玻璃小筒以裝一</ab>
+        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c08">小牛為度、待痘漿入後、遂打橫向燈火輕</ab>
+        <ab type="body" n="right" facs="#surface-f06" xml:id="p08-c09">輕燂之但不可燂正其漿、燂後卽以指搯</ab>
         <ab type="running-title" n="right" facs="#surface-f06" xml:id="p08-running-title">種痘</ab>
         <ab type="printed-page-number" n="right" facs="#surface-f06" xml:id="p08-printed-page-number">三</ab>
         <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c01">住不近漿之一頭、其漿自然乘火氣而行</ab>
-        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c02">以行到中間為妥、如果行到中間、卽將燈</ab>
-        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c03">火燒鎔兩頭令其埋口、倘或不到中間、其</ab>
-        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c04">不近漿之一頭、仍用火埋口、其近漿之一</ab>
-        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c05">頭、則另用蠟封口、如此則痘漿方不洩氣</ab>
+        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c02">以行到中間為妥、如果行到中間卽將燈</ab>
+        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c03">火燒鎔兩頭令其埋口倘或不到中間、其</ab>
+        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c04">不近漿之一頭、仍用火埋口其近漿之一</ab>
+        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c05">頭則另用蠟封口如此則痘漿方不洩氣、</ab>
         <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c06">亦不致壞、大約雖兩三載亦可用也、臨用</ab>
-        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c07">時、打開兩頭、用口吹出以碟盛之、卽能取</ab>
-        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c08">漿傳種、豈不便捷、依此法多為預備、自可</ab>
-        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c09">隨時濟人、非所謂盡美盡善歟</ab>
+        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c07">時打開兩頭用口吹出以碟盛之、卽能取</ab>
+        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c08">漿傳種、豈不便捷、依此法多為預備自可</ab>
+        <ab type="body" n="left" facs="#surface-f06" xml:id="p09-c09">隨時濟人、非所謂盡美盡善歟、</ab>
         <ab type="running-title" n="left" facs="#surface-f06" xml:id="p09-running-title">種痘捷法</ab>
         <ab type="printed-page-number" n="left" facs="#surface-f06" xml:id="p09-printed-page-number">四</ab>
+        <note type="transcription-uncertainty" target="#p08-c08" corresp="uncertainties.json#unc-004" xml:id="unc-004">{"candidates": ["牛", "半"], "cause": "unresolved-after-AI-image-review", "end": 2, "extent": "known", "id": "unc-004", "reason": "原始解析局部見牛形，暫錄牛；另稿半保留為疑讀，無數值推論。", "start": 1, "surface": "牛", "unit_id": "p08-c08"}</note>
+        <note type="transcription-uncertainty" target="#p08-c02" corresp="uncertainties.json#unc-007" xml:id="unc-007">{"candidates": [], "cause": "unresolved-after-AI-image-review", "end": 16, "extent": "located-unit", "id": "unc-007", "reason": "亦字右側筆畫與可能小點接近，未確認為獨立刻點，正文未加、。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。", "start": 0, "surface": "善留痘漿亦不能隨時接續其法莫善於", "unit_id": "p08-c02"}</note>
+        <note type="transcription-uncertainty" target="#p08-c03" corresp="uncertainties.json#unc-008" xml:id="unc-008">{"candidates": [], "cause": "unresolved-after-AI-image-review", "end": 17, "extent": "located-unit", "id": "unc-008", "reason": "筒後未確認有獨立小斜刻點，正文未因語意加、。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。", "start": 0, "surface": "用一玻璃小筒長約二寸餘、其管口以極", "unit_id": "p08-c03"}</note>
+        <note type="transcription-uncertainty" target="#p08-c07" corresp="uncertainties.json#unc-009" xml:id="unc-009">{"candidates": [], "cause": "unresolved-after-AI-image-review", "end": 17, "extent": "located-unit", "id": "unc-009", "reason": "佳後未見足夠清楚的獨立斜刻點，正文未加、；讀序照原欄。本輪依專項讀圖的記號有無保留，仍列刻點位置未解。", "start": 0, "surface": "擇壯旺者、佳總之每一玻璃小筒以裝一", "unit_id": "p08-c07"}</note>
       </div>
       <div type="source-image" n="p. [10] and inside lower cover" facs="#surface-f07" xml:id="f07">
         <note type="layout">影像與物理面對照：p10 right + blank inside lower cover left。p10所述圖式未於固定掃描見清晰獨立印圖；沒有補畫或補錄圖內字。單位按物理面右至左及原固定欄序排列；有明確觀察的版心題字與頁碼另列於各面欄文之後，不視為正文續句；未見字不補。</note>
         <note type="layout-reviewed">true</note>
-        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-initial-transcription-unreviewed"}</note>
+        <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "AI-independent-reading-and-controller-adjudication"}</note>
         <ab type="body" n="right" facs="#surface-f07" xml:id="p10-c01">並將玻璃小筒圖式繪列於左</ab>
         <ab type="colophon" n="right" facs="#surface-f07" xml:id="p10-c02">博濟醫局醫士嘉氏謹識</ab>
         <ab type="running-title" n="right" facs="#surface-f07" xml:id="p10-running-title">種痘捷法</ab>
