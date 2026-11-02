@@ -1,5 +1,11 @@
 # 種痘捷法 · Bodleian Sinica 1240
 
+## 摘要 / Abstract
+
+本資料以牛津大學 Bodleian Libraries 藏 Sinica 1240《種痘捷法》（1859，博濟醫局刊本）為底本，將歷史文獻轉錄與來源影像連結，供醫學史檢索、定位、引用及後續訂正。v0.2.0 以獨立 AI 讀稿比較初錄，再回圖修訂，涵蓋 8 幅影像中的 9 個原印文字面，共 84 單位、1,189 個 Unicode 碼點，保留 9 筆疑讀或記號問題。公開 TXT、JSON、TEI XML 及訂正資料；成果仍屬未經人類雙校的 AI 轉錄，僅供歷史文獻研究。
+
+This dataset links a transcription of Zhong dou jie fa (1859, Boji Medical Institution edition), Bodleian Libraries Sinica 1240, to its source images for research in medical history, discovery, citation and further correction. Version 0.2.0 compares the initial transcription with independent AI readings and revises it against the images. It covers nine original-print text faces across eight source frames, comprising 84 units and 1,189 Unicode code points, with nine unresolved reading or mark records. Public TXT, JSON, TEI XML and correction data support reuse; the text remains an AI transcription without human double collation and is intended for historical-document research.
+
 **v0.2.0｜AI獨立影像校讀及主代理回圖裁定，保留9筆未解疑讀；尚未人類雙校或專家審定。**
 
 整理者：曲宸宇（Chu, Chen-Yu；GitHub：poplolioi11；[ORCID](https://orcid.org/0009-0003-9738-6914)）。本資料是1859年博濟醫局《種痘捷法》的醫學史文獻數位化成果，供原文檢索、引用、來源對照與後續校訂。歷史作者與現代整理者分開；不代表館方背書。用途限醫學史文獻數位化，未進行生物研究、實驗或提供現代操作指引。
