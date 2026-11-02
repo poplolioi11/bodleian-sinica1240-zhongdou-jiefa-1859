@@ -1,10 +1,17 @@
-# 種痘捷法 · Bodleian Sinica 1240
+# 種痘捷法（1859；Bodleian Sinica 1240） / zhong dou jie fa: Transcription dataset
 
 ## 摘要 / Abstract
 
-本資料以牛津大學 Bodleian Libraries 藏 Sinica 1240《種痘捷法》（1859，博濟醫局刊本）為底本，將歷史文獻轉錄與來源影像連結，供醫學史檢索、定位、引用及後續訂正。v0.2.0 以獨立 AI 讀稿比較初錄，再回圖修訂，涵蓋 8 幅影像中的 9 個原印文字面，共 84 單位、1,189 個 Unicode 碼點，保留 9 筆疑讀或記號問題。公開 TXT、JSON、TEI XML 及訂正資料；成果仍屬未經人類雙校的 AI 轉錄，僅供歷史文獻研究。
+《種痘捷法》（zhong dou jie fa）是帶咸豐九年（1859）刊記的中文種痘小冊，由博濟醫局刊行，館目歸於 John Glasgow Kerr（J. G. Kerr）。其種痘論述、醫局刊記與醫士題署，可供研究晚清種痘知識的中文傳播、醫療機構出版與醫學印刷文化。v0.2.0 依 Bodleian Sinica 1240 的 8 幅影像轉錄 9 個原印文字面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
-This dataset links a transcription of Zhong dou jie fa (1859, Boji Medical Institution edition), Bodleian Libraries Sinica 1240, to its source images for research in medical history, discovery, citation and further correction. Version 0.2.0 compares the initial transcription with independent AI readings and revises it against the images. It covers nine original-print text faces across eight source frames, comprising 84 units and 1,189 Unicode code points, with nine unresolved reading or mark records. Public TXT, JSON, TEI XML and correction data support reuse; the text remains an AI transcription without human double collation and is intended for historical-document research.
+Zhong dou jie fa (種痘捷法) is a Chinese vaccination pamphlet bearing an 1859 imprint, published by 博濟醫局 (Boji Medical Institution) and attributed in the Bodleian catalogue to John Glasgow Kerr (J. G. Kerr). Its medical discourse, institutional imprint and physician’s signature provide material for studying the circulation of knowledge in Chinese and late Qing medical print culture. Version 0.2.0 transcribes nine original-print text faces across eight images of Bodleian Sinica 1240, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
+
+原件與書目入口 / Source witness and catalogue:
+
+- [館藏原件 / Source witness](https://digital.bodleian.ox.ac.uk/objects/657cb8d8-0323-48b5-9053-566eccc6421a/)
+- [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_944)
+- [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/657cb8d8-0323-48b5-9053-566eccc6421a.json)
+- [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml)
 
 **v0.2.0｜AI獨立影像校讀及主代理回圖裁定，保留9筆未解疑讀；尚未人類雙校或專家審定。**
 
