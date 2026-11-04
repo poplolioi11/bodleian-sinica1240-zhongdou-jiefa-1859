@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: Please cite this provisional AI-collated historical-text dataset and verify
   quotations against the source.
 type: dataset
-title: 種痘捷法（1859，Bodleian Sinica 1240）：AI獨立影像校讀資料集
+title: "種痘捷法(1859;Bodleian Sinica 1240) / Zhong dou jie fa [Concise guide to vaccination]: Transcription dataset"
 authors:
 - family-names: Chu
   given-names: Chen-Yu

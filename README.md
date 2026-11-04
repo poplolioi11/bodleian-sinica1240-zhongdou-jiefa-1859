@@ -21,7 +21,9 @@ Zhong dou jie fa (種痘捷法) is a Chinese vaccination pamphlet bearing an 185
 
 題名來源 / Title source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml)
 
-語言層次 / Language layers: 原文暫保留較寬的 zho；有限來源不足以縮窄全書語體。 eng 標記現行英文摘要，不表示固定封存附件全部為英文。 館目原語言代碼 chi 保留作來源資訊，不與本文語體分類混同。
+語言層次 / Language layers: 本輪依既有公開轉錄的文言語法標記與書目語境，將主要文本標為lzh；eng標記現行英文說明。這是編者語體分類，未新增全書專家語言審定，也不表示英語全文譯本。館目原代碼chi仍保留作來源資訊。The historical text is classified as Literary Chinese (lzh) using grammatical evidence in the existing public transcription and bibliographic context; eng identifies current English documentation. This is editorial language classification, not expert validation or a full English translation.
+
+語體判定所用既有公開轉錄 / Existing public transcription: [Sinica 1240 v0.2.0 book.json](https://zenodo.org/api/records/23870679/files/book.json/content)。本輪僅處理語言中介資料，不重判原字或驗證醫學內容。
 
 語言來源 / Language source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml)
 
@@ -50,3 +52,5 @@ An independently AI-read and source-adjudicated transcription of the 1859 Chines
 Keywords: 種痘捷法; Sinica 1240; 博濟醫局; 醫學史; 清代醫籍; 傳教醫療史; 醫學印刷史; history of medicine; Chinese medical texts; medical missions history; medical print culture; Qing dynasty; digital humanities; AI-assisted transcription; TEI XML; 1859.
 
 已發布版本 DOI： https://doi.org/10.5281/zenodo.23870679
+
+引用中介資料更正僅適用目前 main 的 `CITATION.cff`；固定 tag／ZIP 與其 `SHA256SUMS` 保留原樣，固定包校驗表不套用到後續的 main 引用檔。Citation metadata corrections apply to the current main CITATION.cff; fixed tags/ZIPs and their checksums remain historical release snapshots.
