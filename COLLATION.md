@@ -9,3 +9,7 @@
 原生Codex實際細分型號未回報，actual_model保持null；私有三維追溯維持incomplete，不冒稱完整型號紀錄。兩批Gemini及主代理均為AI工作，沒有真人雙校、專家審定、同儕審查或人工金標準確率測量。工程格式及來源一致性檢查不證明文字正確。
 
 本版定位為醫學史文獻數位化與可續校的原文資料。掃描、裁片、提示、技能、私有程式及完整工作紀錄不公開。
+
+## v0.2.1 targeted source review
+
+Targeted non-blind review only: 1 specified occurrences; 1 adopted character corrections; 0 source readings retained. Candidates were exposed. No new independent full-book reading, human/expert review or measured character accuracy is claimed. See CORRECTIONS.json.

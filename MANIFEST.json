@@ -1,0 +1,101 @@
+{
+  "version": "0.2.1",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 786,
+      "sha256": "06b8a586fb7eb18750af5b3e59104377d7c73b3037fe1b9b0f1ecefe423c1d23"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 1917,
+      "sha256": "fe3d47799e62bc13b82d879db1817aedb9062dfdebf8111f7b80001b5c85b58b"
+    },
+    {
+      "path": "COLLATION.md",
+      "bytes": 1695,
+      "sha256": "1ddc03145cbc2fb2e155e83ad59a635cf5ccd9438b08498c9827f5a96b054c92"
+    },
+    {
+      "path": "CORRECTIONS-history-v0.2.0.json",
+      "bytes": 19440,
+      "sha256": "22b2515874e7e29033d9fa26093a18a722133a5bfdad95a1f713ebcf61673f96"
+    },
+    {
+      "path": "CORRECTIONS.json",
+      "bytes": 1314,
+      "sha256": "1dac2da1c66b078a9a0b1885019f9091807dbb64779790502a1dd4b0246bb08f"
+    },
+    {
+      "path": "CORRECTIONS.md",
+      "bytes": 690,
+      "sha256": "2af71c51201084cb23852e79e3afdeddb7c19b1f7a29f955fe74093b8180f02d"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 577,
+      "sha256": "c8e80eaef95cb82bf4d1b245c08c396c03b8f1612f7603a8180242d4872a0ca8"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 1702,
+      "sha256": "d074df2f58e2ad42fa2193b3307646ce14e7aa8884342d6e3721aa8170496906"
+    },
+    {
+      "path": "PUBLIC-FILES.txt",
+      "bytes": 316,
+      "sha256": "c73405fc50b08f9c461a05fee3950502eeccee7f9cde89f7e48f29125f96ce7f"
+    },
+    {
+      "path": "QUALITY-AND-CONTRIBUTIONS.md",
+      "bytes": 1224,
+      "sha256": "72c15c2e6ee048b9a8a6df72ca43d26f8d036d384fd48d12576b9caaecbfa9b3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3589,
+      "sha256": "c47d320c70725981d2ea52a51b14ddc1e05396a5a385bba6526ee034923e5295"
+    },
+    {
+      "path": "RIGHTS.md",
+      "bytes": 535,
+      "sha256": "d399aef9dae87d3f6ae0860ae404bd827b19c136cfe8bf07379e8774fa8451d0"
+    },
+    {
+      "path": "SCHEMA.json",
+      "bytes": 6234,
+      "sha256": "1b954676dd670cf3c2630b43335a6df5a3599fdbfa29c34e0fe07cc77c5bad3f"
+    },
+    {
+      "path": "VALIDATION.json",
+      "bytes": 1363,
+      "sha256": "80feca0c3095c806f024e1e5da1e7af4277b2f22fcb90dda2c70e057782e619a"
+    },
+    {
+      "path": "book.json",
+      "bytes": 34982,
+      "sha256": "766a32564c8fb9f00703abcb73b82bf0c86c0190ad140d885a9a8aaae5716674"
+    },
+    {
+      "path": "book.tei.xml",
+      "bytes": 29015,
+      "sha256": "9f6132ab444d8f4e35f2b78f25882d4b6bb09b6f480709217be184057a1fe2f1"
+    },
+    {
+      "path": "book.txt",
+      "bytes": 5529,
+      "sha256": "dc2fee6734fb123d4ba41dfe31ff5924c42147a0b9eb10a778043e3a3967998b"
+    },
+    {
+      "path": "source-pages.json",
+      "bytes": 5045,
+      "sha256": "dad224a709d77a31814de0700e57d0aced095fac5f2f01b2198c8154e46bf17b"
+    },
+    {
+      "path": "uncertainties.json",
+      "bytes": 4058,
+      "sha256": "765a8b9107a2d1a006cca93d5cfbb0277e69fa0320e6f39bfc9222b592388917"
+    }
+  ],
+  "self_hash": "MANIFEST.json and SHA256SUMS excluded here to avoid circular digests; SHA256SUMS binds this manifest."
+}

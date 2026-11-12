@@ -1,26 +1,32 @@
 cff-version: 1.2.0
-message: Please cite this provisional AI-collated historical-text dataset and verify
-  quotations against the source.
+message: Cite the released fixed version and verify quotations against the official
+  source. Version 0.2.1 adds only the specified source-image corrections; see CORRECTIONS.md.
 type: dataset
-title: "種痘捷法(1859;Bodleian Sinica 1240) / Zhong dou jie fa [Concise guide to vaccination]: Transcription dataset"
+title: '種痘捷法(1859;Bodleian Sinica 1240) / Zhong dou jie fa [Concise guide to vaccination]:
+  Transcription dataset'
 authors:
 - family-names: Chu
   given-names: Chen-Yu
   orcid: https://orcid.org/0009-0003-9738-6914
   website: https://github.com/poplolioi11
-version: 0.2.0
-date-released: '2026-11-02'
-url: https://github.com/poplolioi11/bodleian-sinica1240-zhongdou-jiefa-1859
+version: 0.2.1
+url: https://github.com/poplolioi11/bodleian-sinica1240-zhongdou-jiefa-1859/releases/tag/v0.2.1
 repository-code: https://github.com/poplolioi11/bodleian-sinica1240-zhongdou-jiefa-1859
-abstract: Provisional AI-collated Chinese medical-history text with source locations
-  and unresolved readings. No human double collation, expert review or measured transcription
-  accuracy. Historical text, original documentation and source images retain separate
-  rights.
+abstract: Zhong dou jie fa (種痘捷法) is a Chinese vaccination pamphlet bearing an 1859
+  imprint, published by 博濟醫局 (Boji Medical Institution) and attributed in the Bodleian
+  catalogue to John Glasgow Kerr (J. G. Kerr). Its medical discourse, institutional
+  imprint and physician’s signature provide material for studying the circulation
+  of knowledge in Chinese and late Qing medical print culture. Version 0.2.1 transcribes
+  nine original-print text faces across eight images of Bodleian Sinica 1240, providing
+  TXT, JSON and TEI XML with references to the official source images. The text is
+  a provisional AI transcription without human double collation or expert review.
+  This revision applies 1 source-supported character correction following targeted
+  non-blind review of reader proposals; it is not a new full-book independent collation.
 keywords:
+- 醫學史
 - 種痘捷法
 - Sinica 1240
 - 博濟醫局
-- 醫學史
 - 清代醫籍
 - 傳教醫療史
 - 醫學印刷史
@@ -33,4 +39,6 @@ keywords:
 - AI-assisted transcription
 - TEI XML
 - '1859'
-doi: 10.5281/zenodo.23870679
+license: CC-BY-4.0
+date-released: '2026-11-12'
+doi: 10.5281/zenodo.24156751

@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>種痘捷法（1859，Bodleian Sinica 1240）：AI獨立影像校讀資料集</title>
+        <title>種痘捷法(1859;Bodleian Sinica 1240) / Zhong dou jie fa [Concise guide to vaccination]: Transcription dataset</title>
         <author role="historical-author-attribution">末題署「博濟醫局醫士嘉氏謹識」；本包不將現代整理者列為歷史作者。</author>
         <respStmt>
           <resp>資料整理與編碼</resp>
@@ -11,19 +11,18 @@
         </respStmt>
       </titleStmt>
       <editionStmt>
-        <edition>0.2.0</edition>
+        <edition>0.2.1; targeted source-image corrections to v0.2.0</edition>
       </editionStmt>
       <publicationStmt>
         <publisher>Chen-Yu Chu</publisher>
         <idno type="dataset-id">bodleian-sinica1240</idno>
-        <idno type="DOI">10.5281/zenodo.23870679</idno>
         <availability>
-          <p>古籍原文不新增限制；具著作權的自有說明與編排採CC BY 4.0。來源影像未收入本包，另依館方條款。</p>
+          <p>Historical source text: public domain. Copyright-eligible original editorial documentation: CC BY 4.0. Source images, crops, code and private work records are excluded. This candidate has no newly assigned DOI; see README.md and LICENSE.md.</p>
         </availability>
-      </publicationStmt>
+      <date when="2026-11-12">2026-11-12</date><idno type="repository">https://github.com/poplolioi11/bodleian-sinica1240-zhongdou-jiefa-1859</idno></publicationStmt>
       <sourceDesc>
         <bibl>
-          <title>種痘捷法（1859，Bodleian Sinica 1240）：AI獨立影像校讀資料集</title>
+          <title>種痘捷法</title>
           <author>末題署「博濟醫局醫士嘉氏謹識」；本包不將現代整理者列為歷史作者。</author>
           <idno type="shelfmark">Bodleian Libraries, Sinica 1240</idno>
           <note type="edition">咸豐九年（1859）新鋟，博濟醫局藏板；依本版題頁回圖裁定。</note>
@@ -43,8 +42,8 @@
           <p n="position-convention">疑讀位置採單位內Unicode碼點0起算半開區間；bbox為null，只提供原影像及左右面定位。</p>
         </normalization>
       </editorialDecl>
-    </encodingDesc>
-  </teiHeader>
+    <p n="targeted-review-0.2.1">This revision adds only 1 character correction from targeted, non-blind source-image review. Candidates were exposed. Earlier full-book collation statements remain historical baseline coverage; no new full-book independent collation, human review or expert review is claimed.</p></encodingDesc>
+  <revisionDesc><change when="2026-11-12">0.2.1: targeted review of 1 source occurrences; 1 adopted character corrections and 0 retained readings. Prior version: 10.5281/zenodo.23870679.</change></revisionDesc></teiHeader>
   <facsimile>
     <surface ulx="0" uly="0" lrx="2500" lry="2302" xml:id="surface-f01">
       <desc>Upper cover</desc>
@@ -138,7 +137,7 @@
         <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c05">線圍任九日十日至紅、周圍堅硬、畧有些</ab>
         <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c06">腫、十一日漸消、中間先變白色、然後結靨、</ab>
         <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c07">十四日至十八日、然後掃靨、掃靨後有痘</ab>
-        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c08">疼、凡小兒種痘、最好是出世後百日牛歲</ab>
+        <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c08">瘢、凡小兒種痘、最好是出世後百日牛歲</ab>
         <ab type="body" n="right" facs="#surface-f04" xml:id="p04-c09">之間、惟出牙之時、身體不甚自在、不宜種、</ab>
         <ab type="running-title" n="right" facs="#surface-f04" xml:id="p04-running-title">種痘捷法</ab>
         <ab type="printed-page-number" n="right" facs="#surface-f04" xml:id="p04-printed-page-number">一</ab>
@@ -231,5 +230,5 @@
         <note type="layer-states">{"later-library-marks": "excluded-described-only", "original-print": "excluded-nonwork-or-no-separate-original-print"}</note>
       </div>
     </body>
-  </text>
+  <back><div type="targeted-corrections"><head>指定提案回圖結果 0.2.1</head><list><item><ref target="https://iiif.bodleian.ox.ac.uk/iiif/image/00c471fd-cddb-4816-a0e6-5cf77ca15961/full/2500,/0/default.jpg">p04-c08</ref><note>疼 → 瘢; adopted; 疒內為左右複合：左舟形具多道橫畫，右側為殳形收筆；不是冬的上部交叉及下方兩點。</note></item></list></div></back></text>
 </TEI>

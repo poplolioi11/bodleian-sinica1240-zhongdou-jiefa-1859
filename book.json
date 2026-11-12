@@ -1,7 +1,7 @@
 {
   "dataset_id": "bodleian-sinica1240",
-  "version": "0.2.0",
-  "title": "種痘捷法（1859，Bodleian Sinica 1240）：AI獨立影像校讀資料集",
+  "version": "0.2.1",
+  "title": "種痘捷法(1859;Bodleian Sinica 1240) / Zhong dou jie fa [Concise guide to vaccination]: Transcription dataset",
   "quality": {
     "status": "AI-independent-image-reading-and-controller-source-adjudication",
     "independent_reading_applied": true,
@@ -12,7 +12,18 @@
     "accuracy_measured": false,
     "traceability_status": "incomplete",
     "traceability_limitation": "Native Codex specific actual model identifier unavailable; preserved as null.",
-    "source_scope": "8 source frames; 10 interior physical faces; 9 with historical print; covers and later marks described only"
+    "source_scope": "8 source frames; 10 interior physical faces; 9 with historical print; covers and later marks described only",
+    "targeted_review": {
+      "date": "2026-11-12",
+      "base_version": "0.2.0",
+      "proposal_count": 1,
+      "occurrence_count": 1,
+      "adopted_codepoints": 1,
+      "scope": "nonblind targeted source review; no new full-book independent collation",
+      "human_review": "not-run",
+      "expert_review": "not-run",
+      "accuracy_measured": false
+    }
   },
   "source": {
     "object_url": "https://digital.bodleian.ox.ac.uk/objects/657cb8d8-0323-48b5-9053-566eccc6421a/",
@@ -53,7 +64,8 @@
       "verified_images": 6,
       "initial_draft_not_supplied_to_independent_reading": true
     },
-    "source_adjudication": "Fixed controller image adjudication, including original glyphs and source-visible point marks; unresolved readings retained."
+    "source_adjudication": "Fixed controller image adjudication, including original glyphs and source-visible point marks; unresolved readings retained.",
+    "targeted_review": "Specified reader proposals rechecked against the fixed source images; only source-supported character corrections are applied. No other source text is changed."
   },
   "position_convention": "疑讀位置採單位內Unicode碼點0起算半開區間；bbox為null，只提供原影像及左右面定位。",
   "pages": [
@@ -310,7 +322,7 @@
           "layer": "original-print",
           "role": "body",
           "side": "right",
-          "text": "疼、凡小兒種痘、最好是出世後百日牛歲",
+          "text": "瘢、凡小兒種痘、最好是出世後百日牛歲",
           "bbox": null
         },
         {

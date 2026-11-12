@@ -1,56 +1,29 @@
 # 種痘捷法(1859;Bodleian Sinica 1240) / Zhong dou jie fa [Concise guide to vaccination]: Transcription dataset
 
-## 摘要 / Abstract
+## 原書內容與用途 / Historical content
 
-《種痘捷法》（Zhong dou jie fa）是帶咸豐九年（1859）刊記的中文種痘小冊，由博濟醫局刊行，館目歸於 John Glasgow Kerr（J. G. Kerr）。其種痘論述、醫局刊記與醫士題署，可供研究晚清種痘知識的中文傳播、醫療機構出版與醫學印刷文化。v0.2.0 依 Bodleian Sinica 1240 的 8 幅影像轉錄 9 個原印文字面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
+《種痘捷法》（Zhong dou jie fa）是帶咸豐九年（1859）刊記的中文種痘小冊，由博濟醫局刊行，館目歸於 John Glasgow Kerr（J. G. Kerr）。其種痘論述、醫局刊記與醫士題署，可供研究晚清種痘知識的中文傳播、醫療機構出版與醫學印刷文化。v0.2.1 依 Bodleian Sinica 1240 的 8 幅影像轉錄 9 個原印文字面，提供 TXT、JSON、TEI XML 與官方影像來源對應。文字為 AI 暫定轉錄，未經人類全文雙校或專家審定。
 
-Zhong dou jie fa (種痘捷法) is a Chinese vaccination pamphlet bearing an 1859 imprint, published by 博濟醫局 (Boji Medical Institution) and attributed in the Bodleian catalogue to John Glasgow Kerr (J. G. Kerr). Its medical discourse, institutional imprint and physician’s signature provide material for studying the circulation of knowledge in Chinese and late Qing medical print culture. Version 0.2.0 transcribes nine original-print text faces across eight images of Bodleian Sinica 1240, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
+Zhong dou jie fa (種痘捷法) is a Chinese vaccination pamphlet bearing an 1859 imprint, published by 博濟醫局 (Boji Medical Institution) and attributed in the Bodleian catalogue to John Glasgow Kerr (J. G. Kerr). Its medical discourse, institutional imprint and physician’s signature provide material for studying the circulation of knowledge in Chinese and late Qing medical print culture. Version 0.2.1 transcribes nine original-print text faces across eight images of Bodleian Sinica 1240, providing TXT, JSON and TEI XML with references to the official source images. The text is a provisional AI transcription without human double collation or expert review.
 
-原件與書目入口 / Source witness and catalogue:
+## 本版變更與覆核範圍
 
-- [館藏原件 / Source witness](https://digital.bodleian.ox.ac.uk/objects/657cb8d8-0323-48b5-9053-566eccc6421a/)
-- [館藏書目 / Catalogue](https://east-asian.bodleian.ox.ac.uk/catalog/volume_944)
-- [IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/657cb8d8-0323-48b5-9053-566eccc6421a.json)
-- [館方固定書目 XML / Fixed official catalogue XML](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml)
+v0.2.1在v0.2.0固定底本與文字層上採納1處字形訂正、保留0處原錄。本輪只對指定讀者提案逐處回原圖，候選已曝光；不是新增一次全文獨立二校。未作人工全文覆核、專家審定、同儕審查或準確率測量。採納與不採納結果、碼位範圍及官方原圖連結集中見[CORRECTIONS.md](CORRECTIONS.md)及[CORRECTIONS.json](CORRECTIONS.json)。
 
-### 題名與語言說明 / Title and language notes
+8幅影像、9個原印有字面。 本包保留84個單元、1189個Unicode碼點；疑字記錄9筆。碼點、疑字或方框數量不是原刻字數、缺字總數或準確率。仍未解的原有紀錄及更正歷史均保留。原刻點號的編碼沿用固定版，不作現代醫學訂正。
 
-方括號英譯為編者意譯，非館目正式題名。Bracketed English titles are editorial discovery glosses, not official catalogue English titles.
+## 來源與權利
 
-館目原羅馬字題名：「zhong dou jie fa」。展示：「Zhong dou jie fa」；僅首字母大小寫依展示規則調整，保留館目拼法及長音符號。
+- [Bodleian Libraries館藏原件](https://digital.bodleian.ox.ac.uk/objects/657cb8d8-0323-48b5-9053-566eccc6421a/)
+- [官方IIIF manifest](https://iiif.bodleian.ox.ac.uk/iiif/manifest/657cb8d8-0323-48b5-9053-566eccc6421a.json)
+- [上一固定版本v0.2.0](https://doi.org/10.5281/zenodo.23870679)
 
-題名來源 / Title source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml)
+古籍原文不新增使用限制；具著作權的自有說明與編排依CC BY 4.0。館方影像另依其CC BY-NC 4.0及條款，本包不含掃描、裁片、提示、專用程式或私人工作紀錄。館藏不表示館方背書。詳LICENSE.md及RIGHTS.md。
 
-語言層次 / Language layers: 本輪依既有公開轉錄的文言語法標記與書目語境，將主要文本標為lzh；eng標記現行英文說明。這是編者語體分類，未新增全書專家語言審定，也不表示英語全文譯本。館目原代碼chi仍保留作來源資訊。The historical text is classified as Literary Chinese (lzh) using grammatical evidence in the existing public transcription and bibliographic context; eng identifies current English documentation. This is editorial language classification, not expert validation or a full English translation.
+## 整理與引用
 
-語體判定所用既有公開轉錄 / Existing public transcription: [Sinica 1240 v0.2.0 book.json](https://zenodo.org/api/records/23870679/files/book.json/content)。本輪僅處理語言中介資料，不重判原字或驗證醫學內容。
+現代整理者：曲宸宇／Chu, Chen-Yu（帳號poplolioi11；[ORCID](https://orcid.org/0009-0003-9738-6914)）。歷史作者／編者與現代整理者分開。館目羅馬字題名及編者意譯沿用目前核定題名；方括號英譯不是館目正式英文題名。
 
-語言來源 / Language source: [https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml](https://github.com/bodleian/east-asian-mss/blob/c177d5a6db8585168b744d38a6bff02186d1968f/collections/chinese/Sinica%201240.xml)
+本包為v0.2.1固定發布製備版，版本 DOI：[10.5281/zenodo.24156751](https://doi.org/10.5281/zenodo.24156751)；製備日期2026-11-12。製備時 DOI 狀態為 reserved（已預留，尚未確認正式發布）；發布狀態須由公開端讀回確認。上一版本DOI不代表本次修訂。正式引用應以實際發布版本及其CITATION.cff為準。歷史固定檔、tag與引用均不覆寫。
 
-**v0.2.0｜AI獨立影像校讀及主代理回圖裁定，保留9筆未解疑讀；尚未人類雙校或專家審定。**
-
-整理者：曲宸宇（Chu, Chen-Yu；GitHub：poplolioi11；[ORCID](https://orcid.org/0009-0003-9738-6914)）。本資料是1859年博濟醫局《種痘捷法》的醫學史文獻數位化成果，供原文檢索、引用、來源對照與後續校訂。歷史作者與現代整理者分開；不代表館方背書。用途限醫學史文獻數位化，未進行生物研究、實驗或提供現代操作指引。
-
-底本為Bodleian Libraries Sinica 1240，題頁本版讀作「咸豐九年新鋟」。8影像幀含10內頁物理面，其中9面有歷史原印字；幀數不是葉數。p02透印不重錄，封面及現代館藏注記只描述；未見版心字不補，未見清晰獨立圖式不補畫。
-
-原初錄69欄／題署全部已比較；另有15筆實見版心與頁碼，共84單位、1189個Unicode碼點。39個既有單位字串變動，含字形與原刻點位置訂正，不等於39個錯字。9筆疑讀含字形、附筆與刻點位置爭議，原理由及候選保留；不以通行語句覆蓋底本字形。[訂正](CORRECTIONS.json) · [校讀摘要](COLLATION.md)。
-
-- [TXT](book.txt)：`〔unit:...〕`為現代導航，非原文。
-- [JSON](book.json)／[TEI](book.tei.xml)：原單位ID、層別、字串與順序可相互對照；無字形級bbox。
-- [疑讀](uncertainties.json)、[來源](source-pages.json)、[驗證](VALIDATION.json)、[權利](RIGHTS.md)、[引用](CITATION.cff)。
-
-兩批獨立Gemini影像讀字實際模型為gemini-3.8-flash-high，各批3圖，合計6幅讀字影像；再依固定影像裁定原字形與原刻點。原生Codex實際細分型號未回報，保持未知；私有三維追溯因此仍標incomplete。未經人類雙校、專家審定或同儕審查，沒有量測逐字準確率。格式、DOI與模型一致不能證明讀字無誤。
-
-初錄v0.1.0及[其DOI](https://doi.org/10.5281/zenodo.23870178)保留；本版另行封存，不覆寫初錄。本版已於2026-11-02正式發布：[Zenodo v0.2.0](https://doi.org/10.5281/zenodo.23870679) · [GitHub Release](https://github.com/poplolioi11/bodleian-sinica1240-zhongdou-jiefa-1859/releases/tag/v0.2.0)。公開檔案已匿名下載並核對SHA-256。封存包及固定標籤保留建立當下的「預留／候選」文字，不覆寫歷史版本；此主分支說明反映上架後狀態。
-
-原文、異體與原刻點編碼照固定裁定稿保存；不新增現代句讀。歷史文字、自有原創說明與館藏影像分層權利；本包不含掃描、裁片、技能、提示或私有程式，也不提供從原圖完整重跑方法。引用請附版本、單位ID與官方原頁。
-
-## English summary
-
-An independently AI-read and source-adjudicated transcription of the 1859 Chinese medical-history booklet *Zhong dou jie fa*, Bodleian Sinica 1240. All 69 column/title units were compared, with 15 observed running-title/page-number units retained separately. Thirty-nine unit strings changed; nine located uncertainties remain. Eight source frames cover ten interior physical faces, nine with historical print. This is a provisional historical-document research aid, without human double collation, expert review or measured accuracy. Source scans and private processing materials are excluded. The first transcription remains separately citable.
-
-Keywords: 種痘捷法; Sinica 1240; 博濟醫局; 醫學史; 清代醫籍; 傳教醫療史; 醫學印刷史; history of medicine; Chinese medical texts; medical missions history; medical print culture; Qing dynasty; digital humanities; AI-assisted transcription; TEI XML; 1859.
-
-已發布版本 DOI： https://doi.org/10.5281/zenodo.23870679
-
-引用中介資料更正僅適用目前 main 的 `CITATION.cff`；固定 tag／ZIP 與其 `SHA256SUMS` 保留原樣，固定包校驗表不套用到後續的 main 引用檔。Citation metadata corrections apply to the current main CITATION.cff; fixed tags/ZIPs and their checksums remain historical release snapshots.
+追溯狀態仍為incomplete：本輪細分模型識別未提供，原有未解及未覆核部分不補造。詳[QUALITY-AND-CONTRIBUTIONS.md](QUALITY-AND-CONTRIBUTIONS.md)與VALIDATION.json。
